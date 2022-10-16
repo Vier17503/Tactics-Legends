@@ -87,7 +87,7 @@ body {
     width: 24px;
     height: 24px;
     background: #0A1016;
-    border-radius: 60px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,14 +115,14 @@ body {
 }
 
 .search.active {
-    width: 100px;
+    width: 200px;
 }
 
 .search .input {
     position: relative;
-    width: 300px;
-    height: 60px;
-    left: 60px;
+    width: 140px;
+    height: 24px;
+    left: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@ body {
     height: 100%;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 12px;
     padding: 10px 0;
 }
 
@@ -143,8 +143,8 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     right: 15px;
     cursor: pointer;
     display: flex;
@@ -155,8 +155,8 @@ body {
 .clear::before {
     position: absolute;
     content: '';
-    width: 2px;
-    height: 15px;
+    width: 1px;
+    height: 10px;
     background: white;
     transform: rotate(45deg);
 }
@@ -164,8 +164,8 @@ body {
 .clear::after {
     position: absolute;
     content: '';
-    width: 2px;
-    height: 15px;
+    width: 1px;
+    height: 10px;
     background: white;
     transform: rotate(315deg);
 }
