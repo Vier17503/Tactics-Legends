@@ -9,67 +9,68 @@
     <link rel="stylesheet" href="cl.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/logo.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="wrapper">
-        <!-- header -->
-        <div class="header">
-            <div class="row align-center justify-between">
-                <div class="col-2">
-                    <div class="logo">
-                        <a href="#">
-                            <img src="img/logo.png" alt="logo">
-                        </a>
-                    </div>
+    <!-- header -->
+    <div class="header">
+        <div class="row align-center justify-between">
+            <div class="col-2">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
                 </div>
-                <div class="col-10">
-                    <div class="nav">
-                        <ul class="row align-center">
-                            <li>
-                                <div class="dropdown">
-                                    <a href="#" class="text-a">Liên minh huyền thoại</a>
+            </div>
+            <div class="col-10">
+                <div class="nav">
+                    <ul class="row align-center">
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Liên minh huyền thoại</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="nav-item text-a">Đấu trường chân lý</a>
+                                <div class="dropdown-content">
+                                    <a href="#" class="dropdown-content-item">Gợi ý đội hình</a>
+                                    <a href="#" class="dropdown-content-item">Xếp hạng đội hình</a>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="dropdown">
-                                    <a href="#" class="nav-item text-a">Đấu trường chân lý</a>
-                                    <div class="dropdown-content">
-                                        <a href="#" class="dropdown-content-item">Gợi ý đội hình</a>
-                                        <a href="#" class="dropdown-content-item">Xếp hạng đội hình</a>
-                                    </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Xếp hạng</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Bản cập nhật</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="search">
+                                <div class="icon"></div>
+                                <div class="input">
+                                    <input type="text" placeholder="Search" id="mysearch">
                                 </div>
-                            </li>
-                            <li>
-                                <div class="dropdown">
-                                    <a href="#" class="text-a">Xếp hạng</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="dropdown">
-                                    <a href="#" class="text-a">Bản cập nhật</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="search">
-                                    <div class="icon"></div>
-                                    <div class="input">
-                                        <input type="text" placeholder="Search" id="mysearch">
-                                    </div>
-                                    <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <ion-icon name="person-outline" class="icon-account"></ion-icon>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                                <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <ion-icon name="person-outline" class="icon-account"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!-- end header -->
+    </div>
+    <!-- end header -->
+    <div class="wrapper">
         <!-- main -->
         <!-- section1 -->
         <div class="section1">
@@ -93,7 +94,45 @@
         <!-- end section1 -->
         <!-- section2 -->
         <div class="section2">
+            <div class="container">
+                <h1>TIN TỨC MỚI NHẤT </h1>
+                <div class="row1">
+                    <div class="col-4" data-aos="fade-up">
+                        <div class="event">
+                            <div class="feature-event">
+                                <img src="img/hoa linh event.jpg" alt="event1" class="image">
+                            </div>
+                            <div class="content-event">
+                                <span class="time-event">10:00 12/10/2022 đến 23:59 25/10/2022</span>
+                                <a href="https://lienminh.garena.vn/news/articles/9341" class="tittle-event">Tham gia "Hoa Linh Truyền Kỳ" - Viết Truyền Kỳ nhận Thiên Yêu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" data-aos="fade-up">
+                        <div class="event">
+                            <div class="feature-event">
+                                <img src="img/vien cktg event.jpg" alt="event2" class="image">
+                            </div>
+                            <div class="content-event">
+                                <span class="time-event">07/10/2022 đến 15/11/2022</span>
+                                <a href="https://lienminh.garena.vn/news/articles/9339" class="tittle-event">Mở bán báu vật gồm Viên, Túi, Gói CKTG 2022 tặng kèm Kỉ vật CKTG 2022</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" data-aos="fade-up">
+                        <div class="event">
+                            <div class="feature-event">
+                                <img src="img/ve rong event.jpg" alt="event3" class="image">
+                            </div>
+                            <div class="content-event">
+                                <span class="time-event">14/09/2022</span>
+                                <a href="https://lienminh.garena.vn/news/articles/9338" class="tittle-event">Mở bán Vé Thế Giới Rồng II - Khám phá Vùng Nguyên Sinh, chơi và nhận quà cả mùa</a>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
         </div>
         <!-- end section2 -->
         <!-- end main -->
@@ -130,6 +169,10 @@
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

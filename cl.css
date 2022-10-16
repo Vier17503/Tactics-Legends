@@ -14,9 +14,10 @@
     flex-wrap: wrap;
 }
 
-.row>[class*="col-"] {
-    padding: 12px
-}
+
+/* .row>[class*="col-"] {
+    padding: 30px
+} */
 
 .justify-between {
     justify-content: space-between

@@ -3,8 +3,9 @@
     src: url(img/SFCompactDisplay-Bold.otf);
 }
 
-body {
-    font-family: san-bold;
+@font-face {
+    font-family: san-regular;
+    src: url(img/SFCompactDisplay-Regular.otf);
 }
 
 * {
@@ -17,6 +18,8 @@ body {
 
 .wrapper {
     background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
@@ -57,11 +60,13 @@ body {
 
 .dropdown:hover .nav-item {
     color: white;
+    font-family: san-bold;
     font-size: 16px;
 }
 
 .nav a {
     font-size: 16px;
+    font-family: san-bold;
     color: white;
 }
 
@@ -111,6 +116,7 @@ body {
     color: white;
     text-shadow: none;
     font-size: 20px;
+    font-family: san-bold;
     padding: 8px 16px;
 }
 
@@ -190,6 +196,7 @@ body {
     outline: none;
     font-size: 12px;
     padding: 10px 10px;
+    font-family: san-regular;
     background: #5B5A57;
 }
 
@@ -238,6 +245,7 @@ body {
 
 .slide-dot {
     position: absolute;
+    padding-bottom: 20px;
 }
 
 .dot {
@@ -254,17 +262,60 @@ body {
     background-color: #C79A3B;
 }
 
-
-/* .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+.section2 {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-} */
+.section2 h1 {
+    font-size: 64px;
+    line-height: 76px;
+    font-family: san-bold;
+    margin-bottom: 50px;
+}
+
+.row1 {
+    display: flex;
+    gap: 30px;
+}
+
+.event {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.feature-event {
+    overflow: hidden;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.event:hover .image {
+    transform: scale(1.3);
+}
+
+.content-event {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.time-event {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: san-regular;
+    color: white;
+}
+
+.tittle-event {
+    font-size: 24px;
+    line-height: 29px;
+    font-family: san-bold;
+    color: #FFFFFF;
+}
