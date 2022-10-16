@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tactics Legends</title>
+    <link rel="stylesheet" href="cl.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="row align-center justify-between">
+            <div class="col-2">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="nav">
+                    <ul class="row align-center">
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Liên minh huyền thoại</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="nav-item text-a">Đấu trường chân lý</a>
+                                <div class="dropdown-content">
+                                    <a href="#" class="dropdown-content-item">Gợi ý đội hình</a>
+                                    <a href="#" class="dropdown-content-item">Xếp hạng đội hình</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Xếp hạng</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Bản cập nhật</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="search">
+                                <div class="icon"></div>
+                                <div class="input">
+                                    <input type="text" placeholder="Search" id="mysearch">
+                                </div>
+                                <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <ion-icon name="person-outline" class="icon-account"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const icon = document.querySelector('.icon');
+        const search = document.querySelector('.search');
+        icon.onclick = function() {
+            search.classList.toggle('active')
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
