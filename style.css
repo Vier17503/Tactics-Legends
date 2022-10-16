@@ -15,6 +15,10 @@ body {
     list-style: none;
 }
 
+.wrapper {
+    background-image: url(img/background.jpg);
+}
+
 .header {
     width: 1920px;
     padding-top: 20px;
@@ -250,7 +254,8 @@ body {
     background-color: #C79A3B;
 }
 
-.fade {
+
+/* .fade {
     animation-name: fade;
     animation-duration: 1.5s;
 }
@@ -262,4 +267,4 @@ body {
     to {
         opacity: 1
     }
-}
+} */
