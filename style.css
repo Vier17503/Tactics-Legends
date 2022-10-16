@@ -74,7 +74,7 @@ body {
     position: relative;
     width: 24px;
     height: 24px;
-    background: #0A1016;
+    background: #5B5A57;
     border-radius: 5px;
     transition: 0.5s;
     overflow: hidden;
@@ -86,7 +86,7 @@ body {
     left: 0;
     width: 24px;
     height: 24px;
-    background: #0A1016;
+    background: #5B5A57;
     border-radius: 5px;
     display: flex;
     justify-content: center;
