@@ -16,6 +16,8 @@ body {
 }
 
 .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 120px;
     padding-right: 120px;
     background: #0A1016;
