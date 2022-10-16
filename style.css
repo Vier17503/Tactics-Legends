@@ -16,6 +16,23 @@
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#005A83, #36BDB3, #B7E5E7, #D2EDF2);
+    border-radius: 5px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#005A83, #36BDB3, #B7E5E7, #D2EDF2);
+}
+
 .wrapper {
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
