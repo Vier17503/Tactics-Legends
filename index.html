@@ -69,11 +69,56 @@
         </div>
     </div>
     <!-- end header -->
+    <!-- main -->
+    <!-- section1 -->
+    <div class="section1">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="img/slider1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="img/slider2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="img/slider3.jpg" style="width:100%">
+            </div>
+        </div>
+        <div class="slide-dot">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    <!-- end section1 -->
+    <!-- end main -->
     <script>
         const icon = document.querySelector('.icon');
         const search = document.querySelector('.search');
         icon.onclick = function() {
             search.classList.toggle('active')
+        }
+    </script>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active1", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active1";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
         }
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
