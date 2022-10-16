@@ -267,7 +267,7 @@
     padding-bottom: 120px;
 }
 
-.section2 h1 {
+h1 {
     font-size: 64px;
     line-height: 76px;
     font-family: san-bold;
@@ -318,4 +318,22 @@
     line-height: 29px;
     font-family: san-bold;
     color: #FFFFFF;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 43px;
+    font-family: san-bold;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 29px;
+    font-family: san-bold;
 }
