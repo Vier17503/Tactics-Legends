@@ -52,7 +52,7 @@ body {
 }
 
 .nav li {
-    margin: 0 50px;
+    margin: 0 30px;
 }
 
 .dropdown-content-item {
@@ -169,4 +169,8 @@ body {
     height: 10px;
     background: white;
     transform: rotate(315deg);
+}
+
+.icon-account {
+    color: white;
 }
