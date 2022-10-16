@@ -98,8 +98,8 @@ body {
 .search .icon::before {
     content: '';
     position: absolute;
-    width: 6px;
-    height: 6px;
+    width: 13px;
+    height: 13px;
     border: 1px solid white;
     border-radius: 50%;
     transform: translate(-4px, -4px);
@@ -108,8 +108,8 @@ body {
 .search .icon::after {
     content: '';
     position: absolute;
-    width: 1.2px;
-    height: 3px;
+    width: 1px;
+    height: 10px;
     background: white;
     transform: translate(6px, 6px) rotate(315deg);
 }
