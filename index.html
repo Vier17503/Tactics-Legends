@@ -16,14 +16,14 @@
     <!-- header -->
     <div class="header">
         <div class="row align-center justify-between">
-            <div class="col-2">
+            <div class="col-3">
                 <div class="logo">
                     <a href="#">
                         <img src="img/logo.png" alt="logo">
                     </a>
                 </div>
             </div>
-            <div class="col-10">
+            <div class="col-6">
                 <div class="nav">
                     <ul class="row align-center">
                         <li>
@@ -50,22 +50,26 @@
                                 <a href="#" class="text-a">Bản cập nhật</a>
                             </div>
                         </li>
-                        <li>
-                            <div class="search">
-                                <div class="icon"></div>
-                                <div class="input">
-                                    <input type="text" placeholder="Search" id="mysearch">
-                                </div>
-                                <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="signup.html">
-                                <ion-icon name="person-outline" class="icon-account"></ion-icon>
-                            </a>
-                        </li>
                     </ul>
                 </div>
+            </div>
+            <div class="col-3">
+                <ul class="row align-center gap-search">
+                    <li>
+                        <div class="search">
+                            <div class="icon"></div>
+                            <div class="input">
+                                <input type="text" id="mysearch">
+                            </div>
+                            <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="signup.html">
+                            <ion-icon name="person-outline" class="icon-account"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
