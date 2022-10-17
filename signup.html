@@ -81,13 +81,13 @@
             <div class="section1 col-6 hidden">
                 <div class="slideshow-container">
                     <div class="mySlides">
-                        <img src="img/slider1.jpg" style="height: 100%;">
+                        <img src="img/slider1.jpg" style="height: 100vh;">
                     </div>
                     <div class=" mySlides ">
-                        <img src="img/slider2.jpg " style="height: 100%;">
+                        <img src="img/slider2.jpg " style="height: 100vh;">
                     </div>
                     <div class="mySlides">
-                        <img src="img/slider3.jpg" style="height: 100%;">
+                        <img src="img/slider3.jpg" style="height: 100vh;">
                     </div>
                 </div>
                 <div class=" slide-dot ">
@@ -115,25 +115,25 @@
 
             function showSlides() {
                 let i;
-                let slides = document.getElementsByClassName("mySlides ");
-                let dots = document.getElementsByClassName("dot ");
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
                 for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none ";
+                    slides[i].style.display = "none";
                 }
                 slideIndex++;
                 if (slideIndex > slides.length) {
                     slideIndex = 1
                 }
                 for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active1 ", " ");
+                    dots[i].className = dots[i].className.replace(" active1", "");
                 }
-                slides[slideIndex - 1].style.display = "block ";
-                dots[slideIndex - 1].className += " active1 ";
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active1";
                 setTimeout(showSlides, 2000); // Change image every 2 seconds
             }
         </script>
-        <script type="module " src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js "></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
