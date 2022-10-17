@@ -8,6 +8,21 @@
     src: url(img/SFCompactDisplay-Regular.otf);
 }
 
+@font-face {
+    font-family: san-light;
+    src: url(img/SFCompactDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: san-thin;
+    src: url(img/SFCompactDisplay-Thin.otf);
+}
+
+@font-face {
+    font-family: san-ulight;
+    src: url(img/SFCompactDisplay-Ultralight.otf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -257,6 +272,10 @@ html {
     color: white;
 }
 
+ion-icon {
+    font-size: 22px;
+}
+
 .section1 {
     display: flex;
     flex-direction: column;
@@ -360,7 +379,7 @@ h4 {
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
-    font-family: san-bold;
+    font-family: san-ulight;
 }
 
 .footer {
@@ -382,7 +401,19 @@ h4 {
 
 .information span {
     color: white;
-    font-family: san-regular;
+    font-family: san-ulight;
     font-size: 14px;
     line-height: 17px;
+}
+
+.gap-logo {
+    gap: 40px;
+}
+
+.logo-riot {
+    width: 124px;
+}
+
+.logo-garena {
+    width: 63px;
 }
