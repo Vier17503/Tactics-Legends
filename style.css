@@ -59,6 +59,7 @@ html {
 }
 
 .dropdown-content {
+    top: 25px;
     padding-top: 25px;
     display: none;
     position: absolute;
