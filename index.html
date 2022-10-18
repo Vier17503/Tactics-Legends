@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/logo.ico">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -79,13 +80,13 @@
         <!-- section1 -->
         <div class="section1">
             <div class="slideshow-container">
-                <div class="mySlides fade">
+                <div class="mySlides">
                     <img src="img/slider1.jpg" style="width:100%">
                 </div>
-                <div class="mySlides fade">
+                <div class="mySlides">
                     <img src="img/slider2.jpg" style="width:100%">
                 </div>
-                <div class="mySlides fade">
+                <div class="mySlides">
                     <img src="img/slider3.jpg" style="width:100%">
                 </div>
             </div>
@@ -134,8 +135,8 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
+                <a href="#" class="see-more">XEM THÊM</a>
             </div>
         </div>
         <!-- end section2 -->
@@ -149,9 +150,11 @@
                             <h3>Hỗ trợ không giới hạn</h3>
                             <h4>Hãy khám phá vũ trụ Runeterra, thỏa sức xông vào đấu trường công lý và chinh phục đấu trường chân lý, Tactics Legends sẽ giúp bạn đơn giản hóa quá trình làm chủ đấu trường và bên bạn trong mọi bước của hành trình đến với đỉnh
                                 cao. Hãy tham gia với chúng tôi nếu bạn muốn tạo ra những điều tuyệt vời.</h4>
-                            <div class="btn-defaut center">
-                                TÌM HIỂU THÊM
-                            </div>
+                            <a href="https://lienminh.garena.vn/" class="center">
+                                <div class="btn-defaut">
+                                    TÌM HIỂU TRÒ CHƠI
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-7">
@@ -165,6 +168,31 @@
             </div>
         </div>
         <!-- end section3 -->
+        <!-- section4 -->
+        <div class="section4">
+
+        </div>
+        <!-- end section4 -->
+        <!-- section5 -->
+        <div class="section5">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/tft3.jpg" alt="tft">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/tft1.jpg" alt="tft">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/tft2.jpg" alt="tft">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- end section5 -->
     </div>
     <!-- end main -->
     <!-- footer -->
@@ -228,10 +256,10 @@
                 slideIndex = 1
             }
             for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active1", "");
+                dots[i].className = dots[i].className.replace(" active", "");
             }
             slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active1";
+            dots[slideIndex - 1].className += " active";
             setTimeout(showSlides, 2000); // Change image every 2 seconds
         }
     </script>
@@ -240,6 +268,25 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
     </script>
 </body>
 
