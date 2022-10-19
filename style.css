@@ -502,6 +502,12 @@ h4 {
     object-fit: cover;
 }
 
+.section6 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .your-champ {
     padding-right: 120px;
     display: flex;
@@ -530,9 +536,11 @@ h4 {
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    width: 85px;
 }
 
 .box-orange {
+    width: 85px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 5px;
@@ -579,7 +587,35 @@ h4 {
     width: 73px;
 }
 
+.champ-tft-gray {
+    background: #50627F;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 73px;
+    width: 73px;
+}
+
+.champ-tft-yellow {
+    background: #E3C867;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 73px;
+    width: 73px;
+}
+
 .champ-tft-blue img {
+    height: 69px;
+}
+
+.champ-tft-yellow img {
+    height: 69px;
+}
+
+.champ-tft-gray img {
     height: 69px;
 }
 
@@ -624,4 +660,11 @@ h4 {
 .icon-plus {
     color: white;
     font-size: 35px;
+}
+
+.section7 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
 }
