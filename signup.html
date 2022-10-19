@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/logo.ico">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -78,27 +79,40 @@
     <div class="wrapper-nofoot">
         <div class="row">
             <!-- slide-image -->
-            <div class="section1 col-6 hidden">
-                <div class="slideshow-container">
-                    <div class="mySlides">
-                        <img src="img/slider1.jpg" style="height: 100vh;">
+            <div class="col-6">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/1.jpg" alt="tft" style="height: 100%">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/jinx-signup2.jpg" alt="tft">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/jinx-signup3.jpg" alt="tft">
+                        </div>
                     </div>
-                    <div class=" mySlides ">
-                        <img src="img/slider2.jpg " style="height: 100vh;">
-                    </div>
-                    <div class="mySlides">
-                        <img src="img/slider3.jpg" style="height: 100vh;">
-                    </div>
-                </div>
-                <div class=" slide-dot ">
-                    <span class="dot "></span>
-                    <span class="dot "></span>
-                    <span class="dot "></span>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
             <!-- end slide-image -->
             <div class="col-6 ">
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'signin')">ĐĂNG NHẬP</button>
+                    <button class="tablinks" onclick="openCity(event, 'signup')">ĐĂNG KÝ</button>
+                </div>
+                <div id="signin" class="tabcontent">
+                    <div class="input-box">
+                        <input type="text" required="required">
+                        <span>First Name</span>
+                    </div>
+                </div>
 
+                <div id="signup" class="tabcontent">
+                    dafcafa
+                </div>
             </div>
         </div>
         <!-- end main -->
@@ -109,31 +123,49 @@
                 search.classList.toggle('active')
             }
         </script>
-        <script>
-            let slideIndex = 0;
-            showSlides();
-
-            function showSlides() {
-                let i;
-                let slides = document.getElementsByClassName("mySlides");
-                let dots = document.getElementsByClassName("dot");
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                slideIndex++;
-                if (slideIndex > slides.length) {
-                    slideIndex = 1
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active1", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active1";
-                setTimeout(showSlides, 2000); // Change image every 2 seconds
-            }
-        </script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+        <script>
+            function openCity(evt, cityName) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
+
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+        </script>
 </body>
 
 </html>
