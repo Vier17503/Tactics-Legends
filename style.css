@@ -519,6 +519,7 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 45px;
+    padding-bottom: 30px;
 }
 
 .gap-toche {
@@ -557,6 +558,8 @@ h4 {
     display: flex;
     justify-content: center;
     align-content: center;
+    height: 73px;
+    width: 73px;
 }
 
 .champ-tft-green {
@@ -565,6 +568,8 @@ h4 {
     display: flex;
     justify-content: center;
     align-content: center;
+    height: 73px;
+    width: 73px;
 }
 
 .champ-tft-purple {
@@ -573,6 +578,8 @@ h4 {
     display: flex;
     justify-content: center;
     align-content: center;
+    height: 73px;
+    width: 73px;
 }
 
 .champ-tft-blue img {
@@ -585,4 +592,23 @@ h4 {
 
 .champ-tft-purple img {
     height: 69px;
+}
+
+.champ-tft-item {
+    width: 91px;
+    height: 85px;
+    position: relative;
+}
+
+.item-carry {
+    /* top: -25px; */
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    z-index: 2;
+    align-self: flex-end;
+}
+
+.item-carry img {
+    height: 25px;
 }
