@@ -345,6 +345,14 @@ h1 {
     color: #FFFFFF;
 }
 
+h1 span {
+    font-family: san-bold;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+}
+
 .section3 h1 {
     margin-bottom: 50px;
 }
@@ -502,4 +510,73 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 50px;
+}
+
+.box-tft {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.gap-toche {
+    gap: 10px;
+}
+
+.box-yellow {
+    border-radius: 5px;
+    background: #E3C867;
+    gap: 10px;
+}
+
+.box-orange {
+    border-radius: 5px;
+    background: #E98B52;
+    gap: 10px;
+}
+
+.box-yellow img {
+    height: 32px;
+}
+
+.team-tft {
+    padding-left: 65px;
+}
+
+.champ-tft-blue {
+    background: #2361B2;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.champ-tft-green {
+    background: #218259;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.champ-tft-purple {
+    background: #B82492;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.champ-tft-blue img {
+    height: 69px;
+}
+
+.champ-tft-green img {
+    height: 69px;
+}
+
+.champ-tft-purple img {
+    height: 69px;
 }
