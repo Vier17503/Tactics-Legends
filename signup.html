@@ -83,7 +83,7 @@
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="img/1.jpg" alt="tft" style="height: 100%">
+                            <img src="img/1.jpg" alt="tft">
                         </div>
                         <div class="swiper-slide">
                             <img src="img/jinx-signup2.jpg" alt="tft">
@@ -98,74 +98,80 @@
                 </div>
             </div>
             <!-- end slide-image -->
-            <div class="col-6 ">
-                <div class="tab">
-                    <button class="tablinks" onclick="openCity(event, 'signin')">ĐĂNG NHẬP</button>
-                    <button class="tablinks" onclick="openCity(event, 'signup')">ĐĂNG KÝ</button>
-                </div>
-                <div id="signin" class="tabcontent">
-                    <div class="input-box">
-                        <input type="text" required="required">
-                        <span>First Name</span>
+            <div class="col-6">
+                <div class="signup-signin-box">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'signin')">ĐĂNG NHẬP</button>
+                        <button class="tablinks" onclick="openCity(event, 'signup')">ĐĂNG KÝ</button>
+                    </div>
+                    <div id="signin" class="tabcontent">
+                        <div class="row2">
+                            <div class="input-box">
+                                <input type="text" required="required">
+                                <span>Tên đăng nhập</span>
+                            </div>
+                            <div class="input-box">
+                                <input type="password" required="required">
+                                <span>Mật khẩu</span>
+                            </div>
+                        </div>
+                        <div id="signup" class="tabcontent">
+                            dafcafa
+                        </div>
                     </div>
                 </div>
-
-                <div id="signup" class="tabcontent">
-                    dafcafa
-                </div>
             </div>
-        </div>
-        <!-- end main -->
-        <script>
-            const icon = document.querySelector('.icon');
-            const search = document.querySelector('.search');
-            icon.onclick = function() {
-                search.classList.toggle('active')
-            }
-        </script>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-                spaceBetween: 30,
-                centeredSlides: true,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-            });
-        </script>
-        <script>
-            function openCity(evt, cityName) {
-                // Declare all variables
-                var i, tabcontent, tablinks;
-
-                // Get all elements with class="tabcontent" and hide them
-                tabcontent = document.getElementsByClassName("tabcontent");
-                for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
+            <!-- end main -->
+            <script>
+                const icon = document.querySelector('.icon');
+                const search = document.querySelector('.search');
+                icon.onclick = function() {
+                    search.classList.toggle('active')
                 }
+            </script>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
+            <script>
+                function openCity(evt, cityName) {
+                    // Declare all variables
+                    var i, tabcontent, tablinks;
 
-                // Get all elements with class="tablinks" and remove the class "active"
-                tablinks = document.getElementsByClassName("tablinks");
-                for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    // Get all elements with class="tabcontent" and hide them
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+
+                    // Get all elements with class="tablinks" and remove the class "active"
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+
+                    // Show the current tab, and add an "active" class to the button that opened the tab
+                    document.getElementById(cityName).style.display = "block";
+                    evt.currentTarget.className += " active";
                 }
-
-                // Show the current tab, and add an "active" class to the button that opened the tab
-                document.getElementById(cityName).style.display = "block";
-                evt.currentTarget.className += " active";
-            }
-        </script>
+            </script>
 </body>
 
 </html>
