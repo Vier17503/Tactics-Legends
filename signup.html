@@ -101,7 +101,7 @@
             <div class="col-6">
                 <div class="signup-signin-box">
                     <div class="tab">
-                        <button class="tablinks" onclick="openCity(event, 'signin')">ĐĂNG NHẬP</button>
+                        <button class="tablinks" onclick="openCity(event, 'signin')" id="defaultOpen">ĐĂNG NHẬP</button>
                         <button class="tablinks" onclick="openCity(event, 'signup')">ĐĂNG KÝ</button>
                     </div>
                     <div id="signin" class="tabcontent">
@@ -213,6 +213,10 @@
                     document.getElementById(cityName).style.display = "block";
                     evt.currentTarget.className += " active";
                 }
+            </script>
+            <script>
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
             </script>
 </body>
 
