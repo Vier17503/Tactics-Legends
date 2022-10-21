@@ -900,3 +900,14 @@ h4 {
 .forgot-pass:hover {
     text-decoration: underline;
 }
+
+.face-gg {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.icon-face {
+    color: white;
+    font-size: 26px;
+}
