@@ -550,6 +550,39 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    /* scale: 0.9; */
+    transition: all 0.3s;
+}
+
+
+/* .box-tft:hover {
+    scale: 1;
+} */
+
+.test-box-tft {
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+
+/* .test-box-tft:hover .apply-bg::before {
+    background-color: unset;
+    mix-blend-mode: saturation;
+} */
+
+.apply-bg {
+    position: relative;
+}
+
+.test-box-tft .apply-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.921);
+    mix-blend-mode: saturation;
+    z-index: 10;
 }
 
 .gap-toche {
@@ -670,7 +703,9 @@ h4 {
 }
 
 .item-carry img {
-    height: 25px;
+    width: 25px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .first-item {
@@ -681,8 +716,9 @@ h4 {
 }
 
 .first-item img {
-    height: 35px;
     width: 35px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .icon-plus {
@@ -918,9 +954,6 @@ h4 {
     height: 175px;
     overflow: hidden;
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .box-champion:hover {
@@ -937,11 +970,13 @@ h4 {
 .text-champ {
     width: 175px;
     height: 43px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: san-bold;
+    font-size: 16px;
 }
 
 .gap-lol {
@@ -952,7 +987,8 @@ h4 {
 }
 
 .lane {
-    top: 70%;
+    top: 69%;
+    left: 45%;
     position: absolute;
     z-index: 3;
 }
@@ -1018,5 +1054,395 @@ h4 {
 
 .azir {
     background: url(champion/Azir\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.bard {
+    background: url(champion/Bard\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.bel {
+    background: url(champion/Bel_Veth\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.blit {
+    background: url(champion/Blitzcrank\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.brand {
+    background: url(champion/Brand\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.braum {
+    background: url(champion/Braum\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.cait {
+    background: url(champion/Caitlyn\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.camille {
+    background: url(champion/Camille\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.cass {
+    background: url(champion/Cassiopeia\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.chogath {
+    background: url(champion/Cho_Gath\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.corki {
+    background: url(champion/Corki\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.darius {
+    background: url(champion/Darius\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.diana {
+    background: url(champion/Diana\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.drmundo {
+    background: url(champion/Dr.\ Mundo\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.draven {
+    background: url(champion/Draven\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.ekko {
+    background: url(champion/Ekko\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.elise {
+    background: url(champion/Elise\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.evelynn {
+    background: url(champion/Evelynn\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.ezreal {
+    background: url(champion/Ezreal\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.fiddlesticks {
+    background: url(champion/Fiddlesticks\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.fiora {
+    background: url(champion/Fiora\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.fizz {
+    background: url(champion/Fizz\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.galio {
+    background: url(champion/Galio\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.gangplank {
+    background: url(champion/Gangplank\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.garen {
+    background: url(champion/Garen\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.gnar {
+    background: url(champion/Gnar\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.gragas {
+    background: url(champion/Gragas\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.graves {
+    background: url(champion/Graves\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.gwen {
+    background: url(champion/Gwen\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.hecarim {
+    background: url(champion/Hecarim\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.heimerdinger {
+    background: url(champion/Heimerdinger\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.illaoi {
+    background: url(champion/Illaoi\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.irelia {
+    background: url(champion/Irelia\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.ivern {
+    background: url(champion/Ivern\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.janna {
+    background: url(champion/Janna\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.jarvan {
+    background: url(champion/Jarvan\ IV\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.jax {
+    background: url(champion/Jax\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.jayce {
+    background: url(champion/Jayce\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.jhin {
+    background: url(champion/Jhin\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.jinx {
+    background: url(champion/Jinx\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.kaisa {
+    background: url(champion/Kai_Sa\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.kalista {
+    background: url(champion/Kalista\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.karma {
+    background: url(champion/Karma\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.karthus {
+    background: url(champion/Karthus\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.kassadin {
+    background: url(champion/Kassadin\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.katarina {
+    background: url(champion/Katarina\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.kayle {
+    background: url(champion/Kayle\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.kayn {
+    background: url(champion/Kayn\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.kennen {
+    background: url(champion/Kennen\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.khazix {
+    background: url(champion/Kha_Zix\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.kled {
+    background: url(champion/Kled\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.kogmaw {
+    background: url(champion/Kog_Maw\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.leblanc {
+    background: url(champion/LeBlanc\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.leesin {
+    background: url(champion/Lee\ Sin\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.kindred {
+    background: url(champion/Kindred\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.leona {
+    background: url(champion/Leona\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.lillia {
+    background: url(champion/Lillia\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.lissandra {
+    background: url(champion/Lissandra\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.lucian {
+    background: url(champion/Lucian\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.lulu {
+    background: url(champion/Lulu\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.lux {
+    background: url(champion/Lux\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.malphite {
+    background: url(champion/Malphite\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.malzahar {
+    background: url(champion/Malzahar\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.maokai {
+    background: url(champion/Maokai\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.masteryi {
+    background: url(champion/Master\ Yi\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.mf {
+    background: url(champion/Miss\ Fortune\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.morderkaiser {
+    background: url(champion/Mordekaiser\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.morgana {
+    background: url(champion/Morgana\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.nami {
+    background: url(champion/Nami\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.nasus {
+    background: url(champion/Nasus\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.nautilus {
+    background: url(champion/Nautilus\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.neeko {
+    background: url(champion/Neeko\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.nidalee {
+    background: url(champion/Nidalee\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.nilah {
+    background: url(champion/Nilah\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.nocturne {
+    background: url(champion/Nocturne\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.nunu {
+    background: url(champion/Nunu\ _\ Willump\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.olaf {
+    background: url(champion/Olaf\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.oriana {
+    background: url(champion/Orianna\ build\ guides.jpg);
+    background-size: 175px;
+}
+
+.ornn {
+    background: url(champion/Ornn\ build\ guides.jpg);
     background-size: 175px;
 }
