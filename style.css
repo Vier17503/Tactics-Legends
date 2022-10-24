@@ -73,6 +73,15 @@ html {
     gap: 120px;
 }
 
+.wrapper-nopic {
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    background: #0A1016;
+    padding-top: 200px;
+}
+
 .wrapper-nofoot {
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
@@ -1800,4 +1809,46 @@ h4 {
 .zyra {
     background: url(champion/Zyra\ build\ guides.jpg);
     background-size: 175px;
+}
+
+.tab-lol {
+    overflow: hidden;
+    display: flex;
+    gap: 30px;
+}
+
+.tab-lol button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    opacity: 0.1;
+}
+
+.tab-lol button img {
+    width: 70px;
+}
+
+.tab-lol button:hover {
+    opacity: 0.8;
+}
+
+.tab-lol button.active1 {
+    opacity: 1;
+}
+
+.tabimage {
+    display: none;
+    /* padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none; */
+}
+
+h5 {
+    color: white;
+    font-family: san-bold;
+    font-size: 20px;
 }
