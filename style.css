@@ -365,7 +365,7 @@ h1 span {
 }
 
 .section3 h1 {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .row1 {
@@ -446,6 +446,27 @@ h4 {
     line-height: 29px;
     color: #FFFFFF;
     font-family: san-ulight;
+}
+
+.about-content h3 {
+    color: #FFFFFF;
+    font-family: san-regular;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.section3 span {
+    color: #FFFFFF;
+    font-family: san-bold;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.about-content h4 {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: san-ulight;
+    line-height: 17px;
 }
 
 .footer {
