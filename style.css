@@ -469,6 +469,13 @@ h4 {
     line-height: 17px;
 }
 
+.your-champ h4 {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: san-ulight;
+    line-height: 17px;
+}
+
 .footer {
     background: #0A1016;
     padding-top: 40px;
@@ -507,6 +514,14 @@ h4 {
 
 .hidden {
     overflow: hidden;
+}
+
+.kda {
+    overflow: hidden;
+}
+
+.kda img {
+    width: 88%;
 }
 
 .btn-defaut {
