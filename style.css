@@ -1925,3 +1925,26 @@ h5 {
     display: flex;
     gap: 40px;
 }
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    background: #5B5A58;
+    width: 175px;
+    padding: 15px;
+}
+
+.item-feature img {
+    width: 145px;
+    /* height: 149px; */
+}
+
+.item-name {
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    font-family: san-ulight;
+    text-align: center;
+}
