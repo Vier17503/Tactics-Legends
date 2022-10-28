@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tactics Legends</title>
+    <link rel="stylesheet" href="cl.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.ico">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="row align-center justify-between">
+            <div class="col-2">
+                <div class="logo">
+                    <a href="/">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="nav">
+                    <ul class="row align-center">
+                        <li>
+                            <div class="dropdown">
+                                <a href="/" class="text-a">Liên minh huyền thoại</a>
+                                <div class="dropdown-content">
+                                    <a href="lol.html" class="dropdown-content-item">Danh sách tướng</a>
+                                    <a href="item.html" class="dropdown-content-item">Danh sách trang bị</a>
+                                    <a href="bangngoc.html" class="dropdown-content-item">Ngọc bổ trợ</a>
+                                    <a href="#" class="dropdown-content-item">Phép bổ trợ</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="/" class="nav-item text-a">Đấu trường chân lý</a>
+                                <div class="dropdown-content">
+                                    <a href="#" class="dropdown-content-item">Gợi ý đội hình</a>
+                                    <a href="#" class="dropdown-content-item">Xếp hạng đội hình</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Xếp hạng</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Bản cập nhật</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3">
+                <ul class="row align-center gap-search">
+                    <li>
+                        <div class="search">
+                            <div class="icon"></div>
+                            <div class="input">
+                                <input type="text" id="mysearch">
+                            </div>
+                            <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="signup.html">
+                            <ion-icon name="person-outline" class="icon-account"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- main -->
+    <div class="wrapper">
+        <div class="section1-profile">
+            <div class="container">
+                <div class="container-avatar clearfix">
+                    <div class="avatar">
+                        <input id="fileUpload" type="file">
+                        <svg version="1.1" id="camera" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 15" enable-background="new 0 0 25 15" xml:space="preserve">
+                       <path id="cameraFrame" fill="none" stroke="white" stroke-miterlimit="10" d="M23.1,14.1H1.9c-0.6,0-1-0.4-1-1V1.9c0-0.6,0.4-1,1-1h21.2
+                          c0.6,0,1,0.4,1,1v11.3C24.1,13.7,23.7,14.1,23.1,14.1z"/>
+                       <path id="circle" fill="none" stroke="#ffffff" stroke-width="1.4" stroke-miterlimit="12" d="M17.7,7.5c0-2.8-2.3-5.2-5.2-5.2S7.3,4.7,7.3,7.5s2.3,5.2,5.2,5.2
+                          S17.7,10.3,17.7,7.5z"/>
+                       <g id="plus">
+                          <path fill="none" id="plusLine" class="line" stroke="#ffffff" stroke-linecap="round" stroke-miterlimit="10" d="M20.9,2.3v4.4"/>
+                          <path fill="none" class="line"stroke="#ffffff" stroke-linecap="round" stroke-miterlimit="10" d="M18.7,4.6h4.4"/>
+                       </g>
+                      </svg>
+                        <div id="openModal">
+                            <span>Drop here or</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end section1 -->
+        <div class="section2-profile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-10">
+                        <div class="box-id">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="id-content">
+                                        <h4>TACTICS ID</h4>
+                                        <h6>Tactics ID của bạn sẽ được những người chơi kháckhác sử dụng để tìm bạn thông qua bảng điều khiển xã hội trong trò chơi của chúng tôi.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-1"></div>
+                                <div class="col-6">
+                                    <div class="row-id">
+                                        <div class="info-name" data-aos="zoom-in">
+                                            <div class="input-box1">
+                                                <input type="text" required="required" value="Truong Tuan Kiet ">
+                                                <span>Tên tài khoản</span>
+                                            </div>
+                                            <div class="input-box1">
+                                                <input type="text" required="required" value="#666">
+                                                <span>Tactics ID</span>
+                                            </div>
+                                        </div>
+                                        <a href="lol.html" class="id-btn-right">
+                                            <div class="btn-id">
+                                                THAY ĐỔI
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end section2 -->
+
+        <!-- end section3 -->
+        <div class="section4-profile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-10">
+                        <div class="box-id">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="id-content">
+                                        <h4>THAY ĐỔI MẬT KHẨU</h4>
+                                        <h6>Bạn nên cập nhật mật khẩu của mình theo định kỳ để giúp ngăn truy cập trái phép vào tài khoản của bạn.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-1"></div>
+                                <div class="col-6">
+                                    <div class="row-pass">
+                                        <div class="input-box2">
+                                            <input type="text" required="required" value="Ton**********n">
+                                            <span>TÊN ĐĂNG NHẬP</span>
+                                        </div>
+                                        <h6 class="bold">THAY ĐỔI MẬT KHẨU</h6>
+                                        <div class="input-box2">
+                                            <input type="text" required="required">
+                                            <span>MẬT KHẨU CŨ</span>
+                                        </div>
+                                        <div class="input-box2">
+                                            <input type="text" required="required">
+                                            <span>MẬT KHẨU MỚI</span>
+                                        </div>
+                                        <div class="input-box2">
+                                            <input type="text" required="required">
+                                            <span>XÁC NHẬN  MẬT KHẨU</span>
+                                        </div>
+                                        <a href="lol.html" class="id-btn-right">
+                                            <div class="btn-id">
+                                                THAY ĐỔI
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end section4 -->
+    </div>
+    <!-- end main -->
+    <!-- footer -->
+    <div class="footer">
+        <div class="row gap-logo align-center">
+            <img src="img/RIOT_PairedLogo_White_650px.png" alt="riot" class="logo-riot">
+            <img src="img/garena-logo.png" alt="garena" class="logo-garena">
+        </div>
+        <div class="nav ">
+            <ul class="row align-center">
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="text-a">Liên minh huyền thoại</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="nav-item text-a">Đấu trường chân lý</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="# " class="text-a">Xếp hạng</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="text-a">Bản cập nhật</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="information">
+            <span>Địa chỉ: 778/10 Nguyễn Kiệm, Phường 4, Phú Nhuận</span>
+            <span>1800 45 45</span>
+            <span>TacticsLegends@gmail.com</span>
+        </div>
+        <img src="img/12+.jpg" alt="tuoi">
+    </div>
+    <!-- end footer -->
+    <script>
+        const icon = document.querySelector('.icon');
+        const search = document.querySelector('.search');
+        icon.onclick = function() {
+            search.classList.toggle('active')
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
