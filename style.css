@@ -2356,3 +2356,9 @@ h6 {
     flex-direction: column;
     gap: 25px;
 }
+
+.tab-id {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
