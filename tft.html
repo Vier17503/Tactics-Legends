@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tactics Legends</title>
+    <link rel="stylesheet" href="cl.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="row align-center justify-between">
+            <div class="col-2">
+                <div class="logo">
+                    <a href="/">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="nav">
+                    <ul class="row align-center">
+                        <li>
+                            <div class="dropdown">
+                                <a href="/" class="text-a">Liên minh huyền thoại</a>
+                                <div class="dropdown-content">
+                                    <a href="lol.html" class="dropdown-content-item">Danh sách tướng</a>
+                                    <a href="item.html" class="dropdown-content-item">Danh sách trang bị</a>
+                                    <a href="bangngoc.html" class="dropdown-content-item">Ngọc bổ trợ</a>
+                                    <a href="#" class="dropdown-content-item">Phép bổ trợ</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="/" class="nav-item text-a">Đấu trường chân lý</a>
+                                <div class="dropdown-content">
+                                    <a href="#" class="dropdown-content-item">Gợi ý đội hình</a>
+                                    <a href="#" class="dropdown-content-item">Xếp hạng đội hình</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Xếp hạng</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Bản cập nhật</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3">
+                <ul class="row align-center gap-search">
+                    <li>
+                        <div class="search">
+                            <div class="icon"></div>
+                            <div class="input">
+                                <input type="text" id="mysearch">
+                            </div>
+                            <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="signup.html">
+                            <ion-icon name="person-outline" class="icon-account"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- main -->
+    <div class="wrapper">
+        <div class="section1-tft">
+            <div class="section5">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/tft3.jpg" alt="tft">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/tft1.jpg" alt="tft">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/tft2.jpg" alt="tft">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section2-tft">
+            <div class="container">
+
+            </div>
+        </div>
+    </div>
+    <!-- end main -->
+    <!-- footer -->
+    <div class="footer">
+        <div class="row gap-logo align-center">
+            <img src="img/RIOT_PairedLogo_White_650px.png" alt="riot" class="logo-riot">
+            <img src="img/garena-logo.png" alt="garena" class="logo-garena">
+        </div>
+        <div class="nav ">
+            <ul class="row align-center">
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="text-a">Liên minh huyền thoại</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="nav-item text-a">Đấu trường chân lý</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="# " class="text-a">Xếp hạng</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="text-a">Bản cập nhật</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="information">
+            <span>Địa chỉ: 778/10 Nguyễn Kiệm, Phường 4, Phú Nhuận</span>
+            <span>1800 45 45</span>
+            <span>TacticsLegends@gmail.com</span>
+        </div>
+        <img src="img/12+.jpg" alt="tuoi">
+    </div>
+    <!-- end footer -->
+    <script>
+        const icon = document.querySelector('.icon');
+        const search = document.querySelector('.search');
+        icon.onclick = function() {
+            search.classList.toggle('active')
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
