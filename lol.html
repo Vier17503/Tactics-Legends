@@ -83,38 +83,54 @@
     <!-- main -->
     <div class="wrapper-nopic">
         <div class="container">
-            <div class="search-lol">
-
-
-            </div>
-            <div class="search-lane">
-                <div class="row1 align-center">
-                    <div class="col-1"></div>
-                    <div class="col-2">
-                        <div class="name-lane-lol">
-                            <h5>VỊ TRÍ</h5>
+            <img src="img/khung lane.png" alt="khung" class="khung">
+            <div class="box-search">
+                <div class="search-lol">
+                    <div class="row1 align-center">
+                        <div class="col-1"></div>
+                        <div class="col-2">
+                            <div class="name-lane-lol">
+                                <h5>TÌM KIẾM TƯỚNG</h5>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="search-champion">
+                                <div class="input-champion">
+                                    <input type="text" id="search-champ-input" onkeyup="searchChamp()">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-9">
-                        <div class="tab-lol">
-                            <button class="tablink" onclick="openCity(event, 'lane-all')" id="defaultOpen">
+                </div>
+                <div class="search-lane">
+                    <div class="row1 align-center">
+                        <div class="col-1"></div>
+                        <div class="col-2">
+                            <div class="name-lane-lol">
+                                <h5>VỊ TRÍ</h5>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="tab-lol">
+                                <button class="tablink" onclick="openCity(event, 'lane-all')" id="defaultOpen">
                                     <img src="img/white-fill.png" alt="all">
                                 </button>
-                            <button class="tablink" onclick="openCity(event, 'lane-top')">
+                                <button class="tablink" onclick="openCity(event, 'lane-top')">
                                     <img src="img/top.png" alt="top">
                                 </button>
-                            <button class="tablink" onclick="openCity(event, 'lane-jung')">
+                                <button class="tablink" onclick="openCity(event, 'lane-jung')">
                                     <img src="img/jungle.png" alt="jung">
                                 </button>
-                            <button class="tablink" onclick="openCity(event, 'lane-mid')">
+                                <button class="tablink" onclick="openCity(event, 'lane-mid')">
                                     <img src="img/mid.png" alt="mid">
                                 </button>
-                            <button class="tablink" onclick="openCity(event, 'lane-sup')">
+                                <button class="tablink" onclick="openCity(event, 'lane-sup')">
                                     <img src="img/support.png" alt="sp">
                                 </button>
-                            <button class="tablink" onclick="openCity(event, 'lane-ad')">
+                                <button class="tablink" onclick="openCity(event, 'lane-ad')">
                                     <img src="img/ad.png" alt="ad">
                                 </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -3594,6 +3610,24 @@
     <script>
         // Get the element with id="defaultOpen" and click on it
         document.getElementById("defaultOpen").click();
+    </script>
+    <script>
+        function searchChamp() {
+
+            var input = document.getElementById('search-champ-input')
+            var filter = input.value.toUpperCase();
+            var listChamp = document.getElementsByClassName('box-champion')
+
+            for (i = 0; i < listChamp.length; i++) {
+                a = listChamp[i].getElementsByClassName("text-champ")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    listChamp[i].style.display = "";
+                } else {
+                    listChamp[i].style.display = "none";
+                }
+            }
+        }
     </script>
     <script src="app.js"></script>
 </body>
