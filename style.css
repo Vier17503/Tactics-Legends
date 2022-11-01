@@ -2273,3 +2273,362 @@ h6 {
     line-height: 17px;
     color: white;
 }
+
+.banner img {
+    width: 100%;
+}
+
+.ct-akaku {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background: url(img/bg-3.png);
+    background-repeat: no-repeat;
+    background-position-x: centers;
+}
+
+.ct-akaku img {
+    transform: rotate(180deg);
+}
+
+.ct-akaku h1 {
+    font-size: 18px;
+    color: white;
+    font-family: san-bold;
+}
+
+.view {
+    display: flex;
+    align-items: center;
+}
+
+.cmt {
+    display: flex;
+    align-items: center;
+}
+
+.rune {
+    color: aliceblue;
+}
+
+.rune h1 {
+    font-size: 46px;
+    padding: 15px 50px;
+    font-family: san-bold;
+}
+
+.rune h2 {
+    padding: 50px;
+    font-size: 24px;
+    font-family: san-bold;
+}
+
+.bang-apdao {
+    display: flex;
+    gap: 30px;
+    padding-left: 50px;
+}
+
+.img-ad {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #E3C867;
+    border-radius: 50%;
+}
+
+.img-ad img {
+    width: 100%;
+}
+
+.ct-ad {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ct-ad p {
+    font-size: 14px;
+    padding: 10px;
+    font-family: san-ulight;
+}
+
+.bang-kiendinh {
+    display: flex;
+    gap: 30px;
+    padding-left: 50px;
+}
+
+.img-kd {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #218259;
+    border-radius: 50%;
+}
+
+.img-kd img {
+    width: 100%;
+}
+
+.ct-kd p {
+    font-size: 14px;
+    font-family: san-ulight;
+    padding: 10px 20px;
+}
+
+.row4 {
+    display: flex;
+    gap: 40px;
+}
+
+.img-spell {
+    height: 100px;
+    padding-top: 60px;
+}
+
+.spell p {
+    font-size: 14px;
+    font-family: san-ulight;
+    padding: 10px 0;
+}
+
+.pbt {
+    text-align: right;
+}
+
+.spell2 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #E3C867;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-spl {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #E3C867;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.spells {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-top: 130px;
+}
+
+.ct-spl p {
+    font-size: 14px;
+    font-family: san-ulight;
+    padding: 10px 25px;
+}
+
+.sec-1 h1 {
+    color: white;
+    font-family: san-bold;
+    font-size: 46px;
+    padding: 50px;
+}
+
+.sec-1 h2 {
+    color: white;
+    font-size: 24px;
+    font-family: san-bold;
+    padding: 25px 50px;
+}
+
+.trangbi p {
+    font-family: san-ulight;
+    font-size: 12px;
+    color: white;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.note {
+    color: white;
+    font-size: 24px;
+    padding: 25px 50px;
+}
+
+.sec-2 h1 {
+    font-size: 46px;
+    color: white;
+    font-family: san-bold;
+    padding: 50px;
+}
+
+.sec-1 .row img {
+    height: 100%;
+}
+
+.row-noi-tai h2 {
+    font-size: 16px;
+    color: white;
+    font-family: san-bold;
+}
+
+.row-noi-tai p {
+    font-family: san-ulight;
+    font-size: 16px;
+    color: white;
+    padding: 20px 0;
+}
+
+.sec-2 img {
+    padding: 20px 50px;
+    width: 190px;
+}
+
+.row-noi-tai {
+    display: flex;
+    flex-direction: column;
+}
+
+.row5 {
+    display: flex;
+}
+
+.box-skill {
+    display: flex;
+    gap: 35px;
+    padding: 20px 0;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: #E3C867;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.box1 {
+    width: 40px;
+    height: 40px;
+    background-color: #5B5A57;
+    padding: 10px 0;
+}
+
+.chugiua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.chugiua h1 {
+    font-family: san-bold;
+    text-align: center;
+    padding: unset;
+}
+
+.sec-2 .imgline {
+    width: unset;
+    padding: unset;
+    display: flex;
+    align-items: center;
+}
+
+.couter h1 {
+    font-size: 46px;
+    font-family: san-bold;
+    color: white;
+}
+
+.couter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.ct-sp h1 {
+    color: white;
+    font-family: san-bold;
+    font-size: 24px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.akacua {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sylas1 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #E98B52;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+}
+
+.amumu1 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #218259;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+}
+
+.sylas-ct h1 {
+    color: white;
+    font-size: 22px;
+    font-family: san-bold;
+    padding: 10px;
+}
+
+.sylas-ct p {
+    color: white;
+    font-family: san-ulight;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.ct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.ct h1 {
+    color: white;
+    font-size: 64px;
+    font-family: san-bold;
+    padding-top: 50px;
+}
+
+.ct p {
+    font-family: san-ulight;
+    color: white;
+    font-size: 18px
+}
+
+.ct h2 {
+    color: white;
+    font-size: 54px;
+    padding-top: 50px;
+    font-family: san-bold;
+}

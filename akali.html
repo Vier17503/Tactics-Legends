@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tactics Legends</title>
+    <link rel="stylesheet" href="cl.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.ico">
+</head>
+
+<body>
+    <div class="header">
+        <div class="row align-center justify-between">
+            <div class="col-2">
+                <div class="logo">
+                    <a href="/">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="nav">
+                    <ul class="row align-center">
+                        <li>
+                            <div class="dropdown">
+                                <a href="/" class="text-a">Liên minh huyền thoại</a>
+                                <div class="dropdown-content">
+                                    <a href="lol.html" class="dropdown-content-item">Danh sách tướng</a>
+                                    <a href="#" class="dropdown-content-item">Danh sách trang bị</a>
+                                    <a href="bangngoc.html" class="dropdown-content-item">Ngọc bổ trợ</a>
+                                    <a href="#" class="dropdown-content-item">Phép bổ trợ</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="/" class="nav-item text-a">Đấu trường chân lý</a>
+                                <div class="dropdown-content">
+                                    <a href="#" class="dropdown-content-item">Gợi ý đội hình</a>
+                                    <a href="#" class="dropdown-content-item">Xếp hạng đội hình</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Xếp hạng</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Bản cập nhật</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3">
+                <ul class="row align-center gap-search">
+                    <li>
+                        <div class="search">
+                            <div class="icon"></div>
+                            <div class="input">
+                                <input type="text" id="mysearch">
+                            </div>
+                            <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="signup.html">
+                            <ion-icon name="person-outline" class="icon-account"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- main -->
+    <div class="wrapper-nopic">
+        <div class="banner">
+            <img src="img/akali banner.jpg">
+        </div>
+        <div class="ct-akaku">
+            <img src="img/accent-1.png">
+            <h4 class="bold">Vrow's EUW 1k+ LP Challenger #1 Akali Guide</h4>
+            <h6>Cập nhật ngày 18/10/2022 đăng bởi HECKI</h6>
+            <div class="view">
+                <ion-icon name="eye-outline" style="color: white; padding: 5px;"></ion-icon>
+                <h6>100.000 Lượt xem</h6>
+            </div>
+            <div class="cmt">
+                <ion-icon name="chatbox-ellipses-outline" style="color: white; padding: 5px;"></ion-icon>
+                <h6>200 Bình luận</h6>
+            </div>
+        </div>
+        <div class="rune">
+            <div class="row">
+                <div class="col-6">
+                    <h1>NGỌC BỔ TRỢ</h1>
+                    <h2>CHUẨN XÁC</h2>
+                    <div class="bang-apdao">
+                        <div class="ct-ad col-2">
+                            <div class="img-ad">
+                                <img src="bảng ngọc/chuẩn xác/LoL Reforged Rune_ Precision.png">
+                            </div>
+                        </div>
+                        <div class="ct-ad col-2">
+                            <div class="img-ad">
+                                <img src="bảng ngọc/chuẩn xác/LoL Reforged Rune_ Conqueror.png">
+                            </div>
+                            <p>Chinh phục</p>
+                        </div>
+                        <div class="ct-ad col-2">
+                            <div class="img-ad">
+                                <img src="bảng ngọc/chuẩn xác/LoL Reforged Rune_ Triumph.png">
+                            </div>
+                            <p>Đắc thắng</p>
+                        </div>
+                        <div class="ct-ad col-2">
+                            <div class="img-ad">
+                                <img src="bảng ngọc/chuẩn xác/LoL Reforged Rune_ Legend_ Alacrity.png">
+                            </div>
+                            <p>Huyền thoại: Tốc độ đánh</p>
+                        </div>
+                        <div class="ct-ad col-2">
+                            <div class="img-ad">
+                                <img src="bảng ngọc/chuẩn xác/LoL Reforged Rune_ Last Stand.png">
+                            </div>
+                            <p>Chốt chặn cuối cùng</p>
+                        </div>
+                    </div>
+
+                    <h2>KIÊN ĐỊNH</h2>
+                    <div class="bang-kiendinh">
+                        <div class="ct-kd col-2">
+                            <div class="img-kd">
+                                <img src="bảng ngọc/kiên định/LoL Reforged Rune_ Resolve.png">
+                            </div>
+                        </div>
+                        <div class="ct-kd col-2">
+                            <div class="img-kd">
+                                <img src="bảng ngọc/kiên định/LoL Reforged Rune_ Conditioning.png">
+                            </div>
+                            <p>Ngọn gió thứ 2</p>
+                        </div>
+                        <div class="ct-kd col-2">
+                            <div class="img-kd">
+                                <img src="bảng ngọc/kiên định/LoL Reforged Rune_ Overgrowth.png">
+                            </div>
+                            <p>Lan tràn</p>
+                        </div>
+                        <div class="spell">
+                            <div class="row4">
+                                <div class="ct-spell col-2">
+                                    <div class="img-spell">
+                                        <img src="img/spphepthuat.png">
+                                    </div>
+                                </div>
+                                <div class="ct-spell col-2">
+                                    <div class="img-spell">
+                                        <img src="img/spphepthuat.png">
+                                    </div>
+                                </div>
+                                <div class="ct-spell col-2">
+                                    <div class="img-spell">
+                                        <img src="img/khangphep.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p>+ 9 sức mạnh thích ứng</p>
+                                <p>+ 9 sức mạnh thích ứng</p>
+                                <p>+ 8 kháng phép</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h1 class="pbt">PHÉP BỔ TRỢ</h1>
+                    <div class="spells">
+                        <div class="ct-spl col-2">
+                            <div class="img-spl">
+                                <img src="img/Mask group.png">
+                            </div>
+                            <p>Tốc biến</p>
+                        </div>
+                        <div class="ct-spl col-2">
+                            <div class="img-spl">
+                                <img src="img/ignite.png">
+                            </div>
+                            <p>Thiêu đốt</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec-1">
+            <div class="container">
+                <h1>TRANG BỊ KHẮC CHẾ</h1>
+                <div class="row align-center">
+                    <img src="img/accent-bullet 6.png" alt="muiten">
+                    <h2>ĐỘI HÌNH NHIỀU ĐỠ ĐÒN</h2>
+                </div>
+                <div class="trangbi">
+                    <div class="row justify-center">
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/bua riu sat than.png"></div>
+                            <p>Búa rìu sát thần</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/mu tru.png"></div>
+                            <p>Mũ trụ nguyền rủa</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/doong ho cat.png"></div>
+                            <p>Đồng Hồ Cát Zhonya</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/mu phu thuy.png"></div>
+                            <p>Mũ Phù Thủy Rabadon</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/dong co.png"></div>
+                            <p>Động Cơ Vũ Trụ</p>
+                        </div>
+                    </div>
+                    <p class="note"><b>GHI CHÚ</b>: Đây là lối lên đồ vui. Bạn có thể thử để biết được nó như thế nào</p>
+                </div>
+                <div class="row align-center">
+                    <img src="img/accent-bullet 6.png" alt="muiten">
+                    <h2>ĐỘI HÌNH NHIỀU SÁT THƯƠNG CAO</h2>
+                </div>
+                <div class="trangbi">
+                    <div class="row justify-center">
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/quyen truong ac than.png"></div>
+                            <p>Quyền Trượng Ác Thần</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/doong ho cat.png"></div>
+                            <p>Đồng Hồ Cát Zhonya</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/mu phu thuy.png"></div>
+                            <p>Mũ Phù Thủy Rabadon</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/kiem tai uong.png"></div>
+                            <p>Kiếm Tai Ương</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/truong hu vo.png"></div>
+                            <p>Trượng Hư Vô</p>
+                        </div>
+                    </div>
+                    <p class="note"><b>GHI CHÚ</b>: Quyền Trượng Ác Thần hữu dụng khi đối đầu với nhiều tanker vì nó có damage chuẩn rất thích hợp khi cầm chính phục như bảng Ngọc</p>
+                </div>
+                <div class="row align-center">
+                    <img src="img/accent-bullet 6.png" alt="muiten">
+                    <h2>ĐỘI HÌNH NHIỀU ĐỠ ĐÒN</h2>
+                </div>
+                <div class="trangbi">
+                    <div class="row justify-center">
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/quyen truong ac than.png"></div>
+                            <p>Quyền Trượng Ác Thần</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/mu tru.png"></div>
+                            <p>Mũ Trụ Nguyền Rủa</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/truong hu vo.png"></div>
+                            <p>Trượng Hư Vô</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/doong ho cat.png"></div>
+                            <p>Đồng Hồ Cát Zhonya</p>
+                        </div>
+                        <div class="img1 col-1">
+                            <div><img src="full trang bị lol/mu phu thuy.png"></div>
+                            <p>Mũ Phù Thủy Rabadon</p>
+                        </div>
+                    </div>
+                    <p class="note"><b>GHI CHÚ</b>: Quyền Trượng Ác Thần sẽ kích được nội tại và độ bền bỉ rất cao nó giúp bạn đi với tanker khỏe nhùng bù lại về cuối game sẽ hơi đuối</p>
+                </div>
+            </div>
+        </div>
+        <!-- end section1 -->
+        <div class="sec-2">
+            <h1>GỢI Ý NÂNG CẤP CHIÊU</h1>
+            <div class="row5 align-end">
+                <img src="img/noitaiakali.png">
+                <div class="row-noi-tai">
+                    <h2>DẤU ẤN SÁT THỦ</h2>
+                    <p>Nội tại</p>
+                </div>
+            </div>
+            <div class="row5 align-end">
+                <img src="img/qakali.png">
+                <div class="row-noi-tai">
+                    <h2>PHI ĐAO NĂM CÁNH</h2>
+                    <div class="box-skill">
+                        <div class="box">1</div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box">4</div>
+                        <div class="box">5</div>
+                        <div class="box1"></div>
+                        <div class="box">7</div>
+                        <div class="box1"></div>
+                        <div class="box">9</div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 align-end">
+                <img src="img/wakali.png">
+                <div class="row-noi-tai">
+                    <h2>BOM KHÓI</h2>
+                    <div class="box-skill">
+                        <div class="box1"></div>
+                        <div class="box">2</div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box">14</div>
+                        <div class="box">15</div>
+                        <div class="box1"></div>
+                        <div class="box">17</div>
+                        <div class="box">18</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 align-end">
+                <img src="img/eakali.png">
+                <div class="row-noi-tai">
+                    <h2>PHÓNG PHI TIÊU</h2>
+                    <div class="box-skill">
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box">3</div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box">8</div>
+                        <div class="box1"></div>
+                        <div class="box">10</div>
+                        <div class="box1"></div>
+                        <div class="box">12</div>
+                        <div class="box">13</div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 align-end">
+                <img src="img/rakali.png">
+                <div class="row-noi-tai">
+                    <h2>SÁT CHIÊU HOÀN HẢO</h2>
+                    <div class="box-skill">
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box">6</div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box">11</div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                        <div class="box">16</div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chugiua">
+                <h1>“Ta sẽ khiến các vấn đề biến mất.”</h1>
+                <img class="imgline" src="anhxinh/accent-2.png">
+            </div>
+            <div class="row5 align-end">
+                <img src="anhxinh/akali-assassins-mark.png">
+                <div class="row-noi-tai">
+                    <h2>DẤU ẤN SÁT THỦ ( NỘI TẠI )</h2>
+                    <p>Dùng kỹ năng gây sát thương lên tướng sẽ tạo ra vòng tròn xung quanh mục tiêu. Khi vòng tròn thành hình, Akali được tăng mạnh tốc độ di chuyển về phía nó. Nếu đi vào trong vòng tròn, Akali lại được tăng mạnh tốc độ di chuyển về phía
+                        kẻ địch.<br>Bước qua vòng tròn cường hóa lưỡi liềm, giúp tăng tầm và sát thương cho đòn đánh kế tiếp của cô. Đòn đánh này cũng hồi lại một ít nội năng.</p>
+                </div>
+            </div>
+            <div class="row5 align-end">
+                <img src="anhxinh/akali-five-point-strike.png">
+                <div class="row-noi-tai">
+                    <h2>PHI ĐAO NĂM CÁNH ( Q )</h2>
+                    <p>Akali ném năm phi đao theo hình cung hẹp, gây sát thương kẻ địch đứng trước mặt cô và làm chậm ở chỗ phi đao cắm xuống đất.
+                        <br>Nếu tung chiêu khi gần đầy nội năng, Akali hồi máu theo phần trăm sát thương gây ra.
+                        <br>Ở 5 cấp kỹ năng, Phi Đao Năm Cánh gây thêm sát thương lên lính và quái.</p>
+                </div>
+            </div>
+            <div class="row5 align-end">
+                <img src="anhxinh/akali-twilight-shroud.png">
+                <div class="row-noi-tai">
+                    <h2>BOM KHÓI (W)</h2>
+                    <p>Akali hồi lại nội năng và tạo ra đám khói mù dần dần lan tỏa thành một vùng có hình nhẫn. Khi đứng trong khói mù, Akali được che phủ và tăng tốc độ di chuyển.
+                        <br>Khi được che phủ, Akali tàng hình và dù vị trí của cô có thể bị lộ, nhưng bản thân Akali không thể bị chọn làm mục tiêu bởi các kỹ năng hay đòn đánh, kể cả trụ.
+                        <br>Akali có thể rời đám khói mù một vài lần để kéo dài thời gian tác dụng của Bom Khói thêm chút ít.</p>
+                </div>
+            </div>
+            <div class="row5 align-end">
+                <img src="anhxinh/akali-shuriken-flip.png">
+                <div class="row-noi-tai">
+                    <h2>PHÓNG PHI TIÊU (E)</h2>
+                    <p>Akali nhảy lùi lại và phóng phi tiêu ra trước mặt, gây sát thương và đánh dấu kẻ địch đầu tiên trúng phải. Phi tiêu cũng có thể trúng và đánh dấu mây mù của Bom Khói.
+                        <br>Akali có thể tái kích hoạt Phóng Phi Tiêu để lướt tới mục tiêu bị đánh dấu, gây sát thương lên các kẻ địch cô lướt qua.</p>
+                </div>
+            </div>
+            <div class="row5 align-end">
+                <img src="anhxinh/akali-perfect-execution.png">
+                <div class="row-noi-tai">
+                    <h2>SÁT CHIÊU HOÀN HẢO (R)</h2>
+                    <p>Akali lướt tối đa hai lần, giữa các lần có một khoảng trễ ngắn. Lần lướt đầu tiên gây sát thương vật lý và làm choáng trong thoáng chốc, còn lần lướt thứ hai gây sát thương phép dựa theo máu đã mất của kẻ địch.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sec-3">
+            <div class="container">
+                <div class="couter">
+                    <h1>KHẮC CHẾ VÀ HỔ TRỢ</h1>
+                    <img src="anhxinh/accent-2.png">
+                </div>
+
+                <div class="ct-sp">
+                    <div class="row align-center justify-between">
+                        <div class="col-4 text-center">
+                            <h1>KHẮC CHẾ</h1>
+                        </div>
+                        <div class="col-4 akacua">
+                            <img src="anhxinh/akali.png">
+                        </div>
+                        <div class="col-4 text-center">
+                            <h1>HỖ TRỢ</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="sy-amu">
+                    <div class="row ">
+                        <div class="col-2">
+                            <div class="sylas1">
+                                <img src="anhxinh/sylas.png">
+                            </div>
+                        </div>
+                        <div class="sylas-ct">
+                            <h1>SYLAS</h1>
+                            <p>Akali vs Sylas thực sự là một trận đấu khó và khó chịu, nếu bạn né được anh ta, bạn sẽ có cơ hội chiến thắng trong giao tranh</p>
+                        </div>
+                        <div class="col-2">
+                            <div class="amumu1">
+                                <img src="anhxinh/amumu.png">
+                            </div>
+                        </div>
+                        <div class="sylas-ct">
+                            <h1>SYLAS</h1>
+                            <p>Akali vs Sylas thực sự là một trận đấu khó và khó chịu, nếu bạn né được anh ta, bạn sẽ có cơ hội chiến thắng trong giao tranh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec-4">
+            <div class="container">
+                <div class="ct">
+                    <h1>CỐT TRUYỆN</h1>
+                    <img src="anhxinh/accent-1.1.png">
+                    <p>Có một hội kín cổ xưa khởi nguyên từ Quần đảo Ionia nguyện cống hiến hết mình nhằm duy trì sự cân bằng. Trật tự, hỗn mang, ánh sáng, bóng tối - tất cả đều phải tồn tại trong một chuẩn mực hài hòa tuyệt đối bởi đó là quy luật của vũ
+                        trụ. Trật tự này được biết đến dưới cái tên Kinkou và nó có một tam chế chiến binh bóng đêm duy trì trật tự thế giới.<br>
+
+                        <br>Akali là một trong ba, được phó thác với nhiệm vụ thiêng liêng Tỉa Cây - tiêu diệt những kẻ đe dọa sự cân bằng của Valoran.<br>
+
+                        <br>Là một thần đồng, Akali bắt đầu tập huấn với mẹ ngay khi cô biết co tay thành nắm đấm. Mẹ cô chẳng hề nương tay hay dễ dãi, theo một phương châm nghiêm khắc: Cái gì cần thực thi sẽ phải được thực thi. Khi Kinkou bổ nhiệm cô
+                        vào hội ở tuổi mười bốn, cô đã có thể chặt đứt một sợi xích chỉ bằng tay không. Chẳng nghi ngờ gì nữa - cô sẽ kế thừa danh hiệu Nắm Đấm Bóng Đêm của mẹ mình. Với vai trò này, cô đã phải thực hiện những nhiệm vụ khiến nhiều người
+                        đặt câu hỏi về mặt đạo đức của chúng, nhưng đối với cô đó là những vấn đề bất khả xâm phạm mà mẹ cô đã dạy. Giờ đây cô sánh vai cùng Shen và Kennen trong công cuộc duy trì sự cân bằng ở Valoran. Và mục đích cao cả này đã dẫn bộ
+                        ba đến với Chiến trường Công lí.<br>
+
+                        <br>Nắm Đấm Bóng Đêm được tung ra bởi chính Tử Thần. Chớ có cản trở sự cân bằng.</p>
+                    <h2 class="text-center">“Chỉ cần để ý đến một nguyên tắc thôi:
+                        <br>đừng để kẻ địch chạy mất.”</h1>
+                        <img src="anhxinh/accent-2-mobile.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="row gap-logo align-center">
+            <img src="img/RIOT_PairedLogo_White_650px.png" alt="riot" class="logo-riot">
+            <img src="img/garena-logo.png" alt="garena" class="logo-garena">
+        </div>
+        <div class="nav ">
+            <ul class="row align-center">
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="text-a">Liên minh huyền thoại</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="nav-item text-a">Đấu trường chân lý</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="# " class="text-a">Xếp hạng</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="text-a">Bản cập nhật</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="information">
+            <span>Địa chỉ: 778/10 Nguyễn Kiệm, Phường 4, Phú Nhuận</span>
+            <span>1800 45 45</span>
+            <span>TacticsLegends@gmail.com</span>
+        </div>
+        <img src="img/12+.jpg" alt="tuoi">
+    </div>
+    <script>
+        const icon = document.querySelector('.icon');
+        const search = document.querySelector('.search');
+        icon.onclick = function() {
+            search.classList.toggle('active')
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
