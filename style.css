@@ -2274,6 +2274,14 @@ h6 {
     color: white;
 }
 
+.main {
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #0A1016;
+}
+
 .banner img {
     width: 100%;
 }
@@ -2285,7 +2293,8 @@ h6 {
     padding: 50px 0;
     background: url(img/bg-3.png);
     background-repeat: no-repeat;
-    background-position-x: centers;
+    background-position-x: center;
+    text-align: center;
 }
 
 .ct-akaku img {
@@ -2301,9 +2310,11 @@ h6 {
 .view {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .cmt {
+    justify-content: center;
     display: flex;
     align-items: center;
 }
@@ -2319,7 +2330,8 @@ h6 {
 }
 
 .rune h2 {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 24px;
     font-family: san-bold;
 }
@@ -2342,6 +2354,20 @@ h6 {
 }
 
 .ct-ad {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ct-kd {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ct-spl {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -2574,13 +2600,24 @@ h6 {
     overflow: hidden;
 }
 
+.akacua img {
+    width: 100%;
+}
+
 .sylas1 {
     width: 150px;
     height: 150px;
     border: 3px solid #E98B52;
     border-radius: 50%;
-    display: flex;
     overflow: hidden;
+}
+
+.sylas1 img {
+    width: 100%;
+}
+
+.amumu1 img {
+    width: 100%;
 }
 
 .amumu1 {
@@ -2588,8 +2625,8 @@ h6 {
     height: 150px;
     border: 3px solid #218259;
     border-radius: 50%;
-    display: flex;
     overflow: hidden;
+    justify-self: flex-end;
 }
 
 .sylas-ct h1 {
@@ -2606,11 +2643,33 @@ h6 {
     padding: 10px;
 }
 
+.amumu-ct {
+    text-align: right;
+}
+
+.amumu-ct h1 {
+    color: white;
+    font-size: 22px;
+    font-family: san-bold;
+    padding: 10px;
+}
+
+.amumu-ct p {
+    color: white;
+    font-family: san-ulight;
+    font-size: 16px;
+    padding: 10px;
+}
+
 .ct {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px;
+    background: url(img/bg-3.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 600px;
 }
 
 .ct h1 {
