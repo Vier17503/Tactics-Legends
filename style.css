@@ -2297,6 +2297,20 @@ h6 {
     text-align: center;
 }
 
+.ct-aatrox {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.ct-aatrox h1 {
+    font-size: 18px;
+    color: white;
+    font-family: san-bold;
+}
+
 .ct-akaku img {
     transform: rotate(180deg);
 }
@@ -2320,7 +2334,11 @@ h6 {
 }
 
 .rune {
-    color: aliceblue;
+    color: white;
+}
+
+.lat {
+    transform: scaleX(-1);
 }
 
 .rune h1 {
@@ -2330,6 +2348,25 @@ h6 {
 }
 
 .rune h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 24px;
+    font-family: san-bold;
+}
+
+.rune1 {
+    color: white;
+    background: url(img/bg-2.png);
+    background-repeat: no-repeat;
+}
+
+.rune1 h1 {
+    font-size: 46px;
+    padding: 15px 50px;
+    font-family: san-bold;
+}
+
+.rune1 h2 {
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 24px;
@@ -2686,6 +2723,37 @@ h6 {
 }
 
 .ct h2 {
+    color: white;
+    font-size: 54px;
+    padding-top: 50px;
+    font-family: san-bold;
+}
+
+.ct1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background: url(img/bg-1.png);
+    background-repeat: no-repeat;
+    /* background-position-x: center; */
+    /* background-position-y: 600px; */
+}
+
+.ct1 h1 {
+    color: white;
+    font-size: 64px;
+    font-family: san-bold;
+    padding-top: 50px;
+}
+
+.ct1 p {
+    font-family: san-ulight;
+    color: white;
+    font-size: 18px
+}
+
+.ct1 h2 {
     color: white;
     font-size: 54px;
     padding-top: 50px;
