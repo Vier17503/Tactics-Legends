@@ -2529,7 +2529,7 @@ h6 {
 
 .box-skill {
     display: flex;
-    gap: 35px;
+    gap: 20px;
     padding: 20px 0;
 }
 
@@ -2690,4 +2690,90 @@ h6 {
     font-size: 54px;
     padding-top: 50px;
     font-family: san-bold;
+}
+
+.tbtgd {
+    padding: 50px 0;
+}
+
+.box-item-rq {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+}
+
+.item-rp {
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.tbdt h2 {
+    color: white;
+    font-size: 24px;
+    padding: 25px 0;
+}
+
+.tbct h2 {
+    color: white;
+    font-size: 24px;
+    padding: 25px 0;
+}
+
+.tbgt h2 {
+    color: white;
+    font-size: 24px;
+    padding: 25px 0;
+}
+
+.box-item-dt {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.item-dt {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-item-gt {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.item-gt {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-item-ct {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.item-ct {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gytb {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+}
+
+.gytb h1 {
+    color: white;
+    padding: 50px 10px;
 }
