@@ -2084,7 +2084,17 @@ h5 {
 }
 
 .section1-profile {
-    padding-top: 200px;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.info-profile {
+    position: absolute;
+    top: 250px;
+}
+
+.anhbia img {
+    width: 100%;
 }
 
 .box-id {
@@ -2288,6 +2298,7 @@ h6 {
 }
 
 .row-profile {
+    padding-left: 130px;
     display: flex;
     flex-direction: column;
     gap: 10px;
