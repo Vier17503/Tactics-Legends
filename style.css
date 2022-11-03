@@ -91,6 +91,15 @@ html {
     padding-top: 200px;
 }
 
+.wrapper-nopic1 {
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #0A1016;
+    padding-top: 100px;
+}
+
 .wrapper-nofoot {
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
@@ -631,6 +640,25 @@ h4 {
     transition: all 0.3s;
 }
 
+.box-tft1 {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* scale: 0.9; */
+    transition: all 0.3s;
+    position: relative;
+}
+
+.rate {
+    position: absolute;
+    top: 80px;
+    left: -35px;
+}
+
 
 /* .box-tft:hover {
     scale: 1;
@@ -686,8 +714,38 @@ h4 {
     padding-left: 10px;
 }
 
+.box-gray {
+    width: 88px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background: #A9C3C4;
+    gap: 15px;
+    padding-left: 10px;
+}
+
 .box-yellow img {
     height: 32px;
+}
+
+.box-orange img {
+    height: 32px;
+}
+
+.box-gray img {
+    height: 32px;
+}
+
+.box-yellow h4 {
+    color: #0A1016;
+}
+
+.box-orange h4 {
+    color: #0A1016;
+}
+
+.box-gray h4 {
+    color: #0A1016;
 }
 
 .team-tft {
@@ -2923,4 +2981,25 @@ h6 {
     100% {
         transform: translateY(-20px);
     }
+}
+
+.box-page {
+    background: #D2EDF2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.section1-ratetft {
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    font-family: san-bold;
+    font-size: 20px;
+    color: #0A1016;
 }
