@@ -2095,9 +2095,24 @@ h5 {
     padding: 22px;
 }
 
+.box-item-tft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background: #5B5A58;
+    width: 175px;
+    padding: 20px;
+}
+
 .gem-feature img {
     width: 90px;
     height: 90px;
+}
+
+.item-tft-feature img {
+    width: 145px;
+    height: 145px;
 }
 
 .gem-name {

@@ -81,51 +81,183 @@
     </div>
     <!-- end header -->
     <!-- main -->
-    <div class="wrapper-nopic">
+    <div class="wrapper-nopic1">
         <img src="img/item-tft-banner.jpg" alt="">
         <div class="section1-itemtft">
+            <div class="container">
+                <img src="img/khung lane.png" alt="" class="khung">
+                <div class="box-search">
+                    <div class="search-lol">
+                        <div class="row1 align-center">
+                            <div class="col-1"></div>
+                            <div class="col-2">
+                                <div class="name-lane-lol">
+                                    <h5>TÌM KIẾM TRANG BỊ</h5>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="search-champion">
+                                    <div class="input-champion">
+                                        <input type="text" id="search-champ-input" onkeyup="searchChamp()">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-lane">
+                        <div class="row1 align-center justify-center">
+                            <div class="tab-lol">
+                                <button class="tablink1" onclick="openCity(event, 'gayquakho')">
+                                        <img src="full trang bị lol/gay qua kho.png" alt="all">
+                                    </button>
+                                <button class="tablink1" onclick="openCity(event, 'aochoangbac')">
+                                        <img src="full trang bị lol/ao chang bac.png" alt="top">
+                                    </button>
+                                <button class="tablink1" onclick="openCity(event, 'cung')">
+                                        <img src="full trang bị lol/cung.png" alt="jung">
+                                    </button>
+                                <button class="tablink1" onclick="openCity(event, 'gang')">
+                                        <img src="img/sparring-gloves.png" alt="mid">
+                                    </button>
+                                <button class="tablink1" onclick="openCity(event, 'thia')">
+                                        <img src="img/" alt="sp">
+                                    </button>
+                                <button class="tablink1" onclick="openCity(event, 'nuocmat')">
+                                        <img src="full trang bị lol/nuoc mat.png" alt="ad">
+                                    </button>
+                                <button class="tablink1" onclick="openCity(event, 'kiem')">
+                                        <img src="full trang bị lol/bf.png" alt="ad">
+                                    </button>
+                                <button class="tablink1" onclick="openCity(event, 'giap')">
+                                        <img src="full trang bị lol/giap luoi.png" alt="ad">
+                                    </button>
+                                <button class="tablink1" onclick="openCity(event, 'daimau')">
+                                        <img src="full trang bị lol/dai mau.png" alt="ad">
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        </div>
-    </div>
-    <!-- end main -->
-    <!-- footer -->
-    <div class="footer">
-        <div class="row gap-logo align-center">
-            <img src="img/RIOT_PairedLogo_White_650px.png" alt="riot" class="logo-riot">
-            <img src="img/garena-logo.png" alt="garena" class="logo-garena">
-        </div>
-        <div class="nav">
-            <ul class="row align-center">
-                <li>
-                    <div class="dropdown">
-                        <a href="#" class="text-a">Liên minh huyền thoại</a>
+            <div id="gayquakho" class="tabcontent">
+                <div class="container gap-gem">
+                    <div class="row3">
+                        <div class="box-item-tft">
+                            <div class="item-tft-feature">
+                                <img src="Cách ghép đồ đấu trường chân lý/zzrot_portal.png" alt="taptrungtuyetdoi">
+                            </div>
+                            <div class="gem-name">
+                                <h6>Thông đạo Zz’rot</h6>
+                            </div>
+                        </div>
+                        <div class="box-item-tft">
+                            <div class="item-tft-feature">
+                                <img src="Cách ghép đồ đấu trường chân lý/bloodthirster.png" alt="taptrungtuyetdoi">
+                            </div>
+                            <div class="gem-name">
+                                <h6>Huyết kiếm</h6>
+                            </div>
+                        </div>
+                        <div class="box-item-tft">
+                            <div class="item-tft-feature">
+                                <img src="Cách ghép đồ đấu trường chân lý/blue_buff.png" alt="taptrungtuyetdoi">
+                            </div>
+                            <div class="gem-name">
+                                <h6>Bùa xanh</h6>
+                            </div>
+                        </div>
+                        <div class="box-item-tft">
+                            <div class="item-tft-feature">
+                                <img src="Cách ghép đồ đấu trường chân lý/bramble_vest.png" alt="taptrungtuyetdoi">
+                            </div>
+                            <div class="gem-name">
+                                <h6>Áo choàng gai</h6>
+                            </div>
+                        </div>
+                        <div class="box-item-tft">
+                            <div class="item-tft-feature">
+                                <img src="Cách ghép đồ đấu trường chân lý/cavalier.tft_set7.png" alt="taptrungtuyetdoi">
+                            </div>
+                            <div class="gem-name">
+                                <h6>Ấn kỵ sĩ</h6>
+                            </div>
+                        </div>
+                        <div class="box-item-tft">
+                            <div class="item-tft-feature">
+                                <img src="Cách ghép đồ đấu trường chân lý/chalice_of_power.png" alt="taptrungtuyetdoi">
+                            </div>
+                            <div class="gem-name">
+                                <h6>Cốc sức mạnh</h6>
+                            </div>
+                        </div>
                     </div>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <a href="#" class="nav-item text-a">Đấu trường chân lý</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <a href="#" class="text-a">Xếp hạng</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <a href="#" class="text-a">Bản cập nhật</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="information">
-            <span>Địa chỉ: 778/10 Nguyễn Kiệm, Phường 4, Phú Nhuận</span>
-            <span>1800 45 45</span>
-            <span>TacticsLegends@gmail.com</span>
-        </div>
-        <img src="img/12+.jpg" alt="tuoi">
-    </div>
-    <!-- end footer -->
+                    <!-- end hang 1 -->
+
+                </div>
+            </div>
+            <!-- end main -->
+            <!-- footer -->
+            <div class="footer">
+                <div class="row gap-logo align-center">
+                    <img src="img/RIOT_PairedLogo_White_650px.png" alt="riot" class="logo-riot">
+                    <img src="img/garena-logo.png" alt="garena" class="logo-garena">
+                </div>
+                <div class="nav">
+                    <ul class="row align-center">
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Liên minh huyền thoại</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="nav-item text-a">Đấu trường chân lý</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Xếp hạng</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Bản cập nhật</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="information">
+                    <span>Địa chỉ: 778/10 Nguyễn Kiệm, Phường 4, Phú Nhuận</span>
+                    <span>1800 45 45</span>
+                    <span>TacticsLegends@gmail.com</span>
+                </div>
+                <img src="img/12+.jpg" alt="tuoi">
+            </div>
+            <!-- end footer -->
+            <script>
+                function openCity(evt, cityName) {
+                    // Declare all variables
+                    var i, tabcontent, tablink1;
+
+                    // Get all elements with class="tabcontent" and hide them
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+
+                    // Get all elements with class="tablinks" and remove the class "active"
+                    tablink1 = document.getElementsByClassName("tablink1");
+                    for (i = 0; i < tablink1.length; i++) {
+                        tablink1[i].className = tablink1[i].className.replace(" active1", "");
+                    }
+
+                    // Show the current tab, and add an "active" class to the button that opened the tab
+                    document.getElementById(cityName).style.display = "block";
+                    evt.currentTarget.className += " active1";
+
+                }
+            </script>
 </body>
 
 </html>
