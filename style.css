@@ -73,6 +73,15 @@ html {
     gap: 50px;
 }
 
+.wrapper-nospace-foot {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .wrapper-nopic {
     padding-bottom: 120px;
     display: flex;
@@ -2856,4 +2865,14 @@ h6 {
 .gytb h1 {
     color: white;
     padding: 50px 10px;
+}
+
+#parallax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(paralaximg/layer-2.png), url(paralaximg/layer-3.png), url(paralaximg/layer-1.png), url(paralaximg/layer-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
 }
