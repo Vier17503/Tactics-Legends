@@ -3095,3 +3095,221 @@ h6 {
 b {
     font-family: san-bold;
 }
+
+.baolong {
+    background: url(logo-hệ-tộc/Darkflight.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 70px;
+}
+
+.rong {
+    background: url(logo-hệ-tộc/Dragon.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 140px;
+    background-size: 300px;
+}
+
+.thuylong {
+    background: url(logo-hệ-tộc/Lagoon.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 140px;
+}
+
+.tromphep {
+    background: url(logo-hệ-tộc/Spell\ Thief.png);
+    background-repeat: no-repeat;
+    background-position-x: 130px;
+    background-position-y: 140px;
+    height: 530px;
+    background-size: 340px;
+}
+
+.rongluyen {
+    background: url(logo-hệ-tộc/Prodigy.png);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: 140px;
+    height: 540px;
+    background-size: 350px;
+}
+
+.phaothu {
+    background: url(logo-hệ-tộc/Cannoneer.png);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: 140px;
+    background-size: 350px;
+}
+
+.dialong {
+    background: url(logo-hệ-tộc/Monolith.png);
+    background-repeat: no-repeat;
+    background-position-x: 90px;
+    background-position-y: 130px;
+    height: 540px;
+    background-size: 400px;
+}
+
+.kysi {
+    background: url(logo-hệ-tộc/Cavalier.png);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: 140px;
+    height: 540px;
+    background-size: 350px;
+}
+
+.thuonglong {
+    background: url(logo-hệ-tộc/Astral.png);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: 140px;
+    background-size: 350px;
+}
+
+.phapsu {
+    background: url(logo-hệ-tộc/Mage.png);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: 140px;
+    background-size: 350px;
+}
+
+.amlong {
+    background: url(logo-hệ-tộc/Whispers.png);
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+    background-position-y: 140px;
+    background-size: 250px;
+}
+
+.thuatsi {
+    background: url(logo-hệ-tộc/Evoker.png);
+    background-repeat: no-repeat;
+    background-position-x: 190px;
+    background-position-y: 160px;
+    background-size: 200px;
+}
+
+.loilong {
+    background: url(logo-hệ-tộc/Tempest.png);
+    background-repeat: no-repeat;
+    background-position-x: 190px;
+    background-position-y: 160px;
+    background-size: 250px;
+}
+
+.chienbinhrong {
+    background: url(logo-hệ-tộc/Dragonmancer.png);
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 160px;
+    background-size: 300px;
+}
+
+.dolong {
+    background: url(logo-hệ-tộc/Scalescorn.png);
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+    background-position-y: 160px;
+    background-size: 200px;
+}
+
+.bian {
+    background: url(logo-hệ-tộc/Mystic.png);
+    background-repeat: no-repeat;
+    background-position-x: 165px;
+    background-position-y: 140px;
+    background-size: 250px;
+}
+
+.kimlong {
+    background: url(logo-hệ-tộc/Shimmerscale.png);
+    background-repeat: no-repeat;
+    background-position-x: 165px;
+    background-position-y: 140px;
+    background-size: 250px;
+}
+
+.tinhnu {
+    background: url(logo-hệ-tộc/Starcaller.png);
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+    background-position-y: 160px;
+    background-size: 200px;
+}
+
+.ngoclong {
+    background: url(logo-hệ-tộc/Jade.png);
+    background-repeat: no-repeat;
+    background-position-x: 110px;
+    background-position-y: 160px;
+    background-size: 350px;
+}
+
+.hophap {
+    background: url(logo-hệ-tộc/guardian.png);
+    background-repeat: no-repeat;
+    background-position-x: 110px;
+    background-position-y: 160px;
+    background-size: 350px;
+}
+
+.banghoi {
+    background: url(logo-hệ-tộc/Guild.png);
+    background-repeat: no-repeat;
+    background-position-x: 130px;
+    background-position-y: 160px;
+    background-size: 320px;
+}
+
+.xatien {
+    background: url(logo-hệ-tộc/Swiftshot.png);
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+    background-position-y: 160px;
+    background-size: 220px;
+}
+
+.huyenlong {
+    background: url(logo-hệ-tộc/Mirage.png);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: 160px;
+    background-size: 350px;
+}
+
+.nhaccong {
+    background: url(logo-hệ-tộc/Bard.png);
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+    background-position-y: 160px;
+    background-size: 200px;
+}
+
+.dausi {
+    background: url(logo-hệ-tộc/Bruiser.png);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: 140px;
+    background-size: 350px;
+}
+
+.hoahinh {
+    background: url(logo-hệ-tộc/Shapeshifter.png);
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+    background-position-y: 140px;
+    background-size: 200px;
+}
+
+.cuonglong {
+    background: url(logo-hệ-tộc/Ragewing.png);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: 160px;
+    background-size: 330px;
+}
