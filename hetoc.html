@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tactics Legends</title>
+    <link rel="stylesheet" href="cl.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="row align-center justify-between">
+            <div class="col-2">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="nav">
+                    <ul class="row align-center">
+                        <li>
+                            <div class="dropdown">
+                                <a href="/" class="text-a">Liên minh huyền thoại</a>
+                                <div class="dropdown-content">
+                                    <a href="/" class="dropdown-content-item">Danh sách tướng</a>
+                                    <a href="item.html" class="dropdown-content-item">Danh sách trang bị</a>
+                                    <a href="bangngoc.html" class="dropdown-content-item">Ngọc bổ trợ</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="tft.html" class="nav-item text-a">Đấu trường chân lý</a>
+                                <div class="dropdown-content">
+                                    <a href="#" class="dropdown-content-item">Gợi ý đội hình</a>
+                                    <a href="ratetft.html" class="dropdown-content-item">Xếp hạng đội hình</a>
+                                    <a href="itemtft.html" class="dropdown-content-item">Hướng dẫn ghép trang bị</a>
+                                    <a href="/" class="dropdown-content-item">Hệ tộc</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="text-a">Xếp hạng</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="https://lienminh.garena.vn/news" class="text-a">Bản cập nhật</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3">
+                <ul class="row align-center gap-search">
+                    <li>
+                        <div class="search">
+                            <div class="icon"></div>
+                            <div class="input">
+                                <input type="text" id="mysearch">
+                            </div>
+                            <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="signup.html">
+                            <ion-icon name="person-outline" class="icon-account"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- main -->
+    <div class="wrapper-nopic">
+        <div class="sec1">
+            <img src="anhxinh/9999.png" style="width: 100%;height: 100%;padding-bottom: 95px;">
+            <div class="container">
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Bạo Long</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Sẽ có một ô hiến tế xuất hiện trên bàn cờ, tướng đứng trong ô hiến tế sẽ liên kết với hai tướng Bạo Long và sẽ hy sinh khi bắt đầu trận. Đồng thời sẽ cho một bản sao vật phẩm ngẫu nhiên mà tướng hy sinh đang sở hữu cho mỗi
+                                tướng Bạo Long và cộng thêm máu cho các tướng Bạo Long. Với những trang bị không hình thành từ công thức (trang bị của Ornn, Kim Long) và Ấn Hệ Tộc sẽ không chuyển thành trang bị cho các tướng. Thay vào đó, các tướng sẽ
+                                được nhận Tinh Hoa Bạo Long.
+                                <br>2 Bạo Long: 700 máu
+                                <br>4 Bạo Long: 900 Máu
+                                <br>6 Bạo Long: 1200 Máu
+                                <br>8 Bạo Long: 1800 Máu
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Rell.jpg">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Aphelios.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Rengar.jpg">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Tyrant Swain.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Rồng</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Nội Tại: Cần 2 vị trí trong đội hình. Tướng Rồng cho 3 mốc kích hoạt cho tộc được đánh dấu, và cho thêm hiệu ứng dựa trên số Rồng trong đội hình.
+                                <br>1 500 máu cộng thêm
+                                <br>2 Thêm 20 giáp và kháng phép
+                                <br>3 Thêm 10% sát thương
+                                <br>4 Thêm 1 kích cỡ đội hình
+                                <br>5 Thêm 10% tốc độ đánh
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Nomsy (Mage).jpg">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Zippy.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Shi Oh Yu.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Sohm.jpg">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Tyrant Swain.jpg">
+                                </div>
+                            </div>
+                            <div class="imagetoc">
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Idas.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Sy_fen.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Daeja.png">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Terra.jpg">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Ao Shin.png">
+                                </div>
+                            </div>
+                            <div class="imagetoc">
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Shyvana.png">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Aurelion Sol.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Thủy Long</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p> Tướng Thủy Long nhận thêm SMPT và tốc đánh, một viên Thủy Thạch xuất hiện gần kho trang bị sẽ rơi các các ngọc chứa đồ khi tướng Thủy Long cast chiêu theo thời gian.
+                                <br>3 Thủy Long: 20 Sức mạnh phép thuật, 20% tốc độ đánh
+                                <br>6 Thủy Long: 40 Sức mạnh phép thuật, 40% tốc độ đánh
+                                <br>9 Thủy Long: 70 Sức mạnh phép thuật, 70% tốc độ đánh
+                                <br>12 Thủy Long: 200 Sức mạnh phép thuật, 200% tốc độ đánh
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Malphite.jpg">
+                                </div>
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Taliyah.jpg">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Kai_sa.jpg">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Zac.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Seraphine.jpg">
+                                </div>
+                            </div>
+                            <div class="imagetoc">
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Zeri.jpg">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Nilah.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Sohm.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Trộm Phép</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Zoe lấy một Kỹ Năng mới mỗi lần tung chiêu hoặc ở đầu mỗi vòng đấu.
+                                <br>1 Mỗi vòng đấu Zoe sẽ ngẫu nhiên nhận 1 kĩ năng
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Zoe.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Rồng Luyện</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p> Măm Măm nhận một hệ tộc ngẫu nhiên khi bắt đầu trận (Pháp Sư/ Thuật Sĩ/ Pháo Thủ), đồng thời triệu hồi một đồng đội cũ bao gồm các tướng Luyện Rồng của mùa 7 cũ đó là Heimerdinger, Lulu và Tristana hỗ trợ bản thân mình, các
+                                tướng Luyện Rồng này cũng sẽ có hệ tộc giống của Măm Măm.<br> Kỹ năng của các tướng Luyện Rồng cũng giống như Măm Măm. Khi Măm Măm chết, tướng Luyện Rồng nhận thêm 100% tốc đánh.
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Nomsy (Mage).jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Pháo Thủ</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Mỗi đòn đánh thứ 5 bắn ra một quả đại pháo phát nổ gây sát thương vật lý ra xung quanh mục tiêu.
+                                <br>2 150% sát thương vật lí
+                                <br>4 275% sát thương vật lí
+                                <br>6 450% sát thương vật lí
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Senna.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Aphelios.jpg">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Zeri.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Tristana.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Nomsy (Mage).jpg">
+                                </div>
+                            </div>
+                            <div class="imagetoc">
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Graves.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Địa Long</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p> Địa Long tạo ra 3 ô đất cho các đồng minh, tướng đứng trong ô này được giảm 20% sát thương nhận vào.
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Terra.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Kỵ Sĩ</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Nội Tại: Lao nhanh đến kẻ địch khi di chuyển.Kỵ Sĩ được tăng Giáp và Kháng Phép. Ở đầu trận chiến và sau mỗi lần xung phong, chỉ số này được tăng thêm trong vài giây.
+                                <br>2 35% giáp, 35% kháng phép
+                                <br>3 50% giáp, 50% kháng phép
+                                <br>4 65% giáp, 65% kháng phép
+                                <br>5 85% giáp, 85% kháng phép
+                                <br>6 110% giáp, 110% kháng phép
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Sejuani.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Rell.jpg">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Lillia.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Nunu.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Hecarim.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Thượng Long</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p> Thượng Long ở đây vì nó đã được làm lại rồi bạn tôi ạ. Sang mùa 7.5 thượng long không hack tướng và lên 3 sao dễ như trước.<br> Thay vào đó, viên thượng long xuất hiện sau MỖI ROUND với người chơi khác. Cấp sao thượng long
+                                càng cao phần thưởng viên càng lớn. Về cơ bản, bạn cần slow roll lên cấp sao thượng long càng cao càng tốt, khó chơi hơn xưa rất nhiều.
+                                <br>Nidalee (1 Vàng): tộc Thượng Long - hệ Hóa Hình
+                                <br>Skarner (1 Vàng): tộc Thượng Long - hệ Đấu Sĩ
+                                <br>Vladimir (1 Vàng): tộc Thượng Long - hệ Pháp Sư
+                                <br>Lux (2 Vàng): tộc Thượng Long - hệ Pháp Sư
+                                <br>Varus (3 Vàng): tộc Thượng Long - hệ Xạ Tiễn
+                                <br>Aurelion Sol (10 Vàng): tộc Thượng Long - hệ Thuật Sĩ và Rồng Thần
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Nidalee.png">
+                                </div>
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Skarner.png">
+                                </div>
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Vladimir.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Lux.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Varus.png">
+                                </div>
+                            </div>
+                            <div class="imagetoc">
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Aurelion Sol.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Pháp Sư</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Pháp Sư sẽ tung kỹ năng hai lần, với tổng Sức Mạnh Phép Thuật được thay đổi.
+                                <br>3 75% sức mạnh phép thuật
+                                <br>5 100% sức mạnh phép thuật
+                                <br>7 125% sức mạnh phép thuật
+                                <br>9 150% sức mạnh phép thuật
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Vladimir.png">
+                                </div>
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Taliyah.jpg">
+                                </div>
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Heimerdinger.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Lux.jpg">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Lillia.png">
+                                </div>
+                            </div>
+                            <div class="imagetoc">
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Sylas.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Nomsy (Mage).jpg">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Sohm.jpg">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Zoe.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Ám Long</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p> Sát thương từ Ám Long nguyền rủa kẻ địch, giảm Giáp và Kháng Phép của chúng đi 40% trong 6 giây.Khi gây sát thương lên kẻ địch bị ám, tướng Ám Long nhận thêm chỉ số cộng dồn: Sức Mạnh Công Kích và Sức Mạnh Phép Thuật
+                                <br>1 sức mạnh công kích và sức mạnh phép thuật
+                                <br>3 sức mạnh công kích và sức mạnh phép thuật
+                                <br>6 sức mạnh công kích và sức mạnh phép thuật
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Zyra.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Sylas.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Pantheon.jpg">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Sy_fen.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Thuật Sĩ</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Thuật Sĩ nhận Năng Lượng mỗi khi đồng minh hoặc kẻ địch sử dụng Kỹ Năng.
+                                <br>2 4 năng lượng
+                                <br>3 6 năng lượng
+                                <br>4 8 năng lượng
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Zyra.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Lulu.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Seraphine.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Nomsy (Mage).jpg">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Aurelion Sol.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Lôi Long</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p> Sau 8 giây, sấm sét sẽ giáng xuống chiến trường. Kẻ địch bị choáng trong 8 giây và nhận sát thương chuẩn tương đương với một phần Máu tối đa. Sau đó, tướng Lôi Long sẽ được tăng sát thương gây ra.
+                                <br>2 5% sát thương chuẩn, 10% tăng sát thương
+                                <br>4 15% sát thương chuẩn, 30% tăng sát thương
+                                <br>6 25% sát thương chuẩn, 60% tăng sát thương
+                                <br>8 35% sát thương chuẩn, 120% tăng sát thương
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Ezreal.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Qiyana.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Lee Sin.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Graves.jpg">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Ao Shin.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Chiến Binh Rồng</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Sử dụng Thần Long Ban Phước để chọn ra một Đại Hiệp. Thần Long Đại Hiệp được tăng lượng lớn Máu và Sức Mạnh Phép Thuật,tăng thêm 20% với mỗi cấp sao của các Chiến Binh Rồng.
+                                <br>2 + 250 máu, 25 sức mạnh phép thuật
+                                <br>4 + 600 máu, 40 sức mạnh phép thuật
+                                <br>6 + 900 máu, 50 sức mạnh phép thuật
+                                <br>8 + 1200 máu, 70 sức mạnh phép thuật
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Sett.png">
+                                </div>
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Karma.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Kai_sa.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Volibear.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Lee Sin.png">
+                                </div>
+                            </div>
+                            <div class="imagetoc">
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Yasuo.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Đồ Long</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p> Đồ Long được giảm 20% sát thương nhận vào từ kẻ địch có nhiều hơn 1900 Máu. Nếu không có Rồng Thần trong đội hình, họ sẽ gây thêm sát thương phép tương đương với một phần sát thương gây ra.
+                                <br>2 15% sát thương
+                                <br>4 50% sát thương
+                                <br>6 115% sát thương
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Braum.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Lillia.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Olaf.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Diana.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Bí Ẩn</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Cả đội nhận thêm Kháng Phép.
+                                <br>2 40 kháng phép
+                                <br>3 80 kháng phép
+                                <br>4 150 kháng phép
+                                <br>5 300 kháng phép
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Seraphine.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Rakan.jpg">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Shi Oh Yu.png">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Bard.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Kim Long</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p> Nhận trang bị Hoàng Kim ngẫu nhiên.trang bị đặc biệt bao gồm Vương Miện Vô Địch. Bạn có thể gỡ trang bị Kim Long bằng cách đưa chủ sở hữu lên hàng chờ dự bị.
+                                <br>3 1 Trang bị Kim Long
+                                <br>5 2 Trang bị Kim Long
+                                <br>7 4 Trang bị Kim Long
+                                <br>9 5 Trang bị Kim Long, bao gồm cả Vương miện vô địch
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Nasus.jpg">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Jax.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Volibear.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Idas.png">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Zoe.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Tinh Nữ</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Tinh Nữ đầu tiên sử dụng Kỹ Năng hồi máu cho linh thú của bạn, phụ thuộc vào cấp sao. Hồi máu phụ trội sẽ hủy diệt một tướng của đối thủ. <br>1 Lần dùng kĩ năng đầu tiên Soraka sẽ hồi 2/3/75 máu cho linh thú
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Soraka.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Ngọc Long</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Triệu hồi các Tượng Ngọc có thể được đặt trên sân đấu, tăng dần sức mạnh. Mỗi giao tranh, các đồng minh bắt đầu trận chiến cạnh một tượng ngọc sẽ được hồi phục theo Máu tối đa mỗi 2 giây và nhận thêm tốc độ đánh. Khi tượng
+                                ngọc bị phá hủy, nó gây sát thương phép tương đương 33% Máu tối đa của bản thân lên kẻ địch xung quanh.
+                                <br>3 1 tượng ngọc, 2% máu tối đa, 10% tốc đánh
+                                <br>5 2 tượng ngọc, 3% máu tối đa, 22% tốc đánh
+                                <br>7 3 tượng ngọc, 5% máu tối đa, 55% tốc đánh
+                                <br>9 4 tượng ngọc, 8% máu tối đa, 88% tốc đánh
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Wukong.jpg">
+                                </div>
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Karma.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Gnar.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Jax.jpg">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Shi Oh Yu.png">
+                                </div>
+                            </div>
+                            <div class="imagetoc">
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Soraka.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Hộ Pháp</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Một lần mỗi giao tranh, khi xuống dưới 50% Máu, Hộ Pháp tạo một lá chắn theo Máu tối đa của bản thân cho mình và đồng minh gần nhất. Những lá chắn có thể cộng dồn với nhau.
+                                <br>2 25% máu tối đa
+                                <br>4 40% tối đa
+                                <br>6 80% máu tối đa
+                                <br>8 130% máu tối đa</p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Leona.png">
+                                </div>
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Nasus.jpg">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Braum.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Zac.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Rakan.jpg">
+                                </div>
+                            </div>
+                            <div class="imagetoc">
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Idas.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Bang Hội</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Cho những hiệu ứng riêng biệt cho đội hình; thành viên Bang Hội được nhận gấp đôi hiệu ứng. Tăng lên với mỗi thành viên Bang Hội trong đội hình. Sejuani: +130 máu, Twitch: +11% tốc đánh, Zippy: + 8 giáp và kháng phép, jayce:
+                                + 5 sức mạnh công kích và sức mạnh phép thuật, Bard: + 2 năng lượng mỗi đòn đánh , Ấn Bang hội: + 3% hút máu toàn phần
+                                <br>1 100% hiệu ứng bang hội
+                                <br>2 110% hiệu ứng bang hội
+                                <br>3 120% hiệu ứng bang hội
+                                <br>4 130% hiệu ứng bang hội
+                                <br>5 140% hiệu ứng bang hội
+                                <br>6 150% hiệu ứng bang hội
+                                <br>7 160% hiệu ứng bang hội
+                                <br>8 175% hiệu ứng bang hội
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Sejuani.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Twitch.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Zippy.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Jayce.jpg">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Bard.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Xạ Tiễn</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Nội Tại: nhận thêm 2 ô Tầm Đánh. Xạ Tiễn nhận thêm Tốc Độ Đánh dựa trên khoảng cách giữa bản thân và mục tiêu tính theo ô.
+                                <br>2 10% tốc đánh
+                                <br>3 15% tốc đánh
+                                <br>4 25% tốc đánh
+                                <br>5 35% tốc đánh
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Ezreal.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Twitch.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Varus.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Xayah.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Huyễn Long</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Tướng Huyễn Long nhận hiệu ứng tộc ngẫu nhiên trong từng trận đấu. Các hiệu ứng Huyễn Long bao gồm: - Tụ điện: Khi gây sát thương hoặc bị gây sát thương, tướng Huyễn Long có tỉ lệ gây sức mạnh phép thuật lên kẻ địch xung quanh
+                                bằng 8% máu tối đa của chúng. - Chiến tướng: Sau mỗi chiến thắng, nhận thêm máu và sức mạnh phép thuật. Tăng 10% với mỗi chiến thắng, cộng dồn tối đa 5 lần. - Hải tặc: Sau mỗi trận chiến nhận 1 rương chưa các phần thưởng
+                                tương ứng sau mỗi trận đấu. - Thần sứ: Tướng Huyễn Long được hồi máu khi máu xuống dưới 50% - Đao phủ: Tướng Huyễn Long luôn luôn được chí mạng khi mục tiêu đạt mức máu nhất định. Đồng thời nhận thêm sát thương chí mạng.
+                                - Kiếm phép: Nhận sức mạnh phép thuật mỗi đòn đánh
+                                <br>2 Tụ điện: 20% tỉ lệ Chiến tướng: 200 máu và 20 sức mạnh phép thuật Hải tặc: Nhận 1 rương thủy thủ Thần sứ: Hồi 40% máu tối đa Đao phủ: Ở 50% máu, + 20% sát thương chí mạng Kiếm phép: 5 sức mạnh phép thuật
+                                <br>4 Tụ điện: 25% tỉ lệ Chiến tướng: 300 máu và 30 sức mạnh phép thuật Hải tặc: Nhận 1 rương trung úy Thần sứ: Hồi 65% máu tối đa Đao phủ: Ở 65% máu, + 30% sát thương chí mạng Kiếm phép: 8 sức mạnh phép thuật
+                                <br>6 Tụ điện: 33% tỉ lệ Chiến tướng: 450 máu và 45 sức mạnh phép thuật Hải tặc: Nhận 1 thuyền trưởng Thần sứ: Hồi 65% máu tối đa, hiệu ứng xảy ra 2 lần Đao phủ: Ở 80% máu, + 40% sát thương chí mạng Kiếm phép: 12 sức mạnh
+                                phép thuật
+                                <br>8 Tụ điện: 50% tỉ lệ Chiến tướng: 600 máu và 60 sức mạnh phép thuật Hải tặc: Nhận 1 đô đốc Thần sứ: Hồi 110% máu tối đa, hiệu ứng xảy ra 2 lần Đao phủ: Ở 100% máu, + 50% sát thương chí mạng Kiếm phép: 20 sức mạnh phép
+                                thuật
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Leona.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Yone.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Nunu.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Daeja.png">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Yasuo.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Nhạc Công</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Đồng đội sống sót sau trận đấu với người chơi sẽ có tỉ lệ sinh ra một Nốt Nhạc. Bard luôn sinh ra một Nốt Nhạc khi ăn mừng thắng trận. Mỗi Nốt Nhạc thu thập được sẽ tăng tỉ lệ ra tướng cấp cao thêm 1%.
+                                <br>1 Mỗi đồng mình sống sót có 2% tỉ lệ sinh ra 1 nốt nhạc.
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Bard.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Đấu Sĩ</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Cả đội nhận thêm Máu tối đa. Đấu Sĩ nhận gấp đôi lượng máu này.
+                                <br>2 180 máu
+                                <br>4 350 máu
+                                <br>6 600 máu
+                                <br>8 1000 máu
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Skarner.png">
+                                </div>
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Malphite.jpg">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Jax.jpg">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Olaf.png">
+                                </div>
+                                <div class="tuong3t">
+                                    <img src="tuongtft/Sy_fen.png">
+                                </div>
+                            </div>
+                            <div class="imagetoc">
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Sy_fen.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-between">
+                    <div class="col-6">
+                    </div>
+                    <div class="col-6">
+                        <div class="ctent">
+                            <h1>Hóa Hình</h1>
+                            <img src="anhxinh/t1HeaderDivider 4.png">
+                            <p>Biến hình cho thêm Máu tối đa.
+                                <br>2 50% máu tối đa
+                                <br>4 125% máu tối đa
+                            </p>
+                            <div class="imagetoc">
+                                <div class="tuong1t">
+                                    <img src="tuongtft/Nidalee.png">
+                                </div>
+                                <div class="tuong2t">
+                                    <img src="tuongtft/Gnar.png">
+                                </div>
+                                <div class="tuong4t">
+                                    <img src="tuongtft/Jayce.jpg">
+                                </div>
+                                <div class="tuong5t">
+                                    <img src="tuongtft/Shyvana.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end main -->
+        <!-- footer -->
+        <div class="footer">
+            <div class="row gap-logo align-center">
+                <img src="img/RIOT_PairedLogo_White_650px.png" alt="riot" class="logo-riot">
+                <img src="img/garena-logo.png" alt="garena" class="logo-garena">
+            </div>
+            <div class="nav ">
+                <ul class="row align-center">
+                    <li>
+                        <div class="dropdown">
+                            <a href="#" class="text-a">Liên minh huyền thoại</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#" class="nav-item text-a">Đấu trường chân lý</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="# " class="text-a">Xếp hạng</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#" class="text-a">Bản cập nhật</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="information">
+                <span>Địa chỉ: 778/10 Nguyễn Kiệm, Phường 4, Phú Nhuận</span>
+                <span>1800 45 45</span>
+                <span>TacticsLegends@gmail.com</span>
+            </div>
+            <img src="img/12+.jpg" alt="tuoi">
+        </div>
+        <!-- end footer -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
