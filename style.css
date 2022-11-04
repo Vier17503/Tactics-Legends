@@ -3031,11 +3031,13 @@ h6 {
     font-size: 64px;
     text-align: center;
     padding: 25px 0;
+    font-family: san-bold;
 }
 
 .ctent p {
     font-size: 14px;
     padding: 25px 30px 25px 0;
+    font-family: san-ulight;
 }
 
 .brht img {
@@ -3088,4 +3090,8 @@ h6 {
     border: 3px solid #E3C867;
     display: flex;
     overflow: hidden;
+}
+
+b {
+    font-family: san-bold;
 }
