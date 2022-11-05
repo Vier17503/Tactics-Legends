@@ -2093,6 +2093,7 @@ h5 {
     background: #5B5A58;
     width: 175px;
     padding: 22px;
+    position: relative;
 }
 
 .box-item-tft {
@@ -2103,6 +2104,7 @@ h5 {
     background: #5B5A58;
     width: 175px;
     padding: 20px;
+    position: relative;
 }
 
 .gem-feature img {
@@ -2141,6 +2143,7 @@ h5 {
     background: #5B5A58;
     width: 175px;
     padding: 15px;
+    position: relative;
 }
 
 .item-feature img {
@@ -3312,4 +3315,46 @@ b {
     background-position-x: 120px;
     background-position-y: 160px;
     background-size: 330px;
+}
+
+
+/* .tooltip {
+    position: relative;
+    display: inline-block;
+} */
+
+.tooltiptext {
+    visibility: hidden;
+    background-color: #0A1016;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: -180px;
+    left: 80%;
+    padding: 10px 20px;
+    min-width: 300px;
+}
+
+.tooltiptext h2 {
+    font-family: san-bold;
+    color: white;
+}
+
+.tooltiptext p {
+    font-family: san-ulight;
+    color: white;
+    font-size: 14px;
+}
+
+.box-item-tft:hover .tooltiptext {
+    visibility: visible;
+}
+
+.box-item:hover .tooltiptext {
+    visibility: visible;
+}
+
+.box-gem:hover .tooltiptext {
+    visibility: visible;
 }
