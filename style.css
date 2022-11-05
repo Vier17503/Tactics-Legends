@@ -908,6 +908,43 @@ h4 {
     background-color: #D2EDF2;
 }
 
+.tab-dientho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.tab-dientho button {
+    background-color: #5B5A58;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-family: san-bold;
+    font-size: 14px;
+    padding: 16px 32px;
+    width: 230px;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab-dientho button:hover {
+    background-color: #36bdb3;
+}
+
+
+/* Create an active/current tablink class */
+
+.tab-dientho button.active {
+    background-color: #D2EDF2;
+}
+
 
 /* Style the tab content */
 
@@ -3605,4 +3642,8 @@ img {
 .hex:nth-child(28) {
     grid-row-start: 4;
     grid-column: 13 / span 2;
+}
+
+.tuoi12 {
+    width: 180px;
 }
