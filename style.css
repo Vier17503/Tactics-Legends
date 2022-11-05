@@ -725,15 +725,18 @@ h4 {
 }
 
 .box-yellow img {
-    height: 32px;
+    max-height: 32px;
+    max-width: 35px;
 }
 
 .box-orange img {
-    height: 32px;
+    max-height: 32px;
+    max-width: 30px;
 }
 
 .box-gray img {
-    height: 32px;
+    max-height: 32px;
+    max-width: 35px;
 }
 
 .box-yellow h4 {
