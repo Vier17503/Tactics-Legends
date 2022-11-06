@@ -2728,6 +2728,7 @@ h6 {
 
 .sec-2 img {
     padding: 20px 50px;
+    height: 100px;
 }
 
 .row-noi-tai {
@@ -2771,13 +2772,6 @@ h6 {
     font-family: san-bold;
     text-align: center;
     padding: unset;
-}
-
-.sec-2 .imgline {
-    width: unset;
-    padding: unset;
-    display: flex;
-    align-items: center;
 }
 
 .couter h1 {
