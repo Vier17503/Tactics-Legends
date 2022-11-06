@@ -2679,7 +2679,7 @@ h6 {
     color: white;
     font-size: 24px;
     font-family: san-bold;
-    padding: 25px 50px;
+    padding: 50px 25px;
 }
 
 .trangbi p {
@@ -2710,11 +2710,7 @@ h6 {
 }
 
 .sec-1 .row img {
-    width: 40px;
-}
-
-.sec-1 .row4 img {
-    width: 80px;
+    height: 100%;
 }
 
 .row-noi-tai h2 {
@@ -2988,7 +2984,7 @@ h6 {
 }
 
 .item-dt {
-    gap: 50px;
+    gap: 20px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -2998,20 +2994,8 @@ h6 {
     padding: 5px 0;
 }
 
-.box-item-dt img {
-    width: 50px;
-}
-
-.box-item-gt img {
-    width: 50px;
-}
-
-.box-item-ct img {
-    width: 50px;
-}
-
 .item-gt {
-    gap: 55px;
+    gap: 20px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -3022,7 +3006,7 @@ h6 {
 }
 
 .item-ct {
-    gap: 60px;
+    gap: 20px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -3038,10 +3022,6 @@ h6 {
     font-family: san-bold;
     color: white;
     padding: 50px 10px;
-}
-
-.gytb img {
-    width: 300px;
 }
 
 #parallax {
@@ -3503,13 +3483,6 @@ p {
     font-family: san-ulight;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
-
 .hexagon-gallery {
     /* margin: auto; */
     /* margin-top: 50px; */
@@ -3536,6 +3509,10 @@ img {
 
 .tuongtft {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 
 .hex:first-child {
