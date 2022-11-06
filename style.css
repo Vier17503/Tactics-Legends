@@ -367,6 +367,10 @@ html {
     background-color: #C79A3B;
 }
 
+.section2 h1 {
+    padding-bottom: 50px;
+}
+
 h1 {
     font-size: 64px;
     line-height: 76px;
@@ -2689,6 +2693,7 @@ h6 {
     flex-direction: column;
     gap: 5px;
     text-align: center;
+    align-items: center;
 }
 
 .note {
@@ -2705,7 +2710,11 @@ h6 {
 }
 
 .sec-1 .row img {
-    height: 100%;
+    width: 40px;
+}
+
+.sec-1 .row4 img {
+    width: 80px;
 }
 
 .row-noi-tai h2 {
@@ -2911,6 +2920,10 @@ h6 {
     /* background-position-y: 600px; */
 }
 
+.ct1 img {
+    width: 600px;
+}
+
 .ct1 h1 {
     color: white;
     font-size: 64px;
@@ -2924,7 +2937,7 @@ h6 {
     font-size: 18px
 }
 
-.ct1 h2 {
+.ct1 h3 {
     color: white;
     font-size: 54px;
     padding-top: 50px;
@@ -2957,54 +2970,59 @@ h6 {
     color: white;
     font-size: 24px;
     padding: 25px 0;
+    font-family: san-bold;
 }
 
 .tbct h2 {
     color: white;
     font-size: 24px;
     padding: 25px 0;
+    font-family: san-bold;
 }
 
 .tbgt h2 {
     color: white;
     font-size: 24px;
     padding: 25px 0;
-}
-
-.box-item-dt {
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
+    font-family: san-bold;
 }
 
 .item-dt {
-    gap: 20px;
+    gap: 50px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .box-item-gt {
-    width: 100px;
-    height: 100px;
     overflow: hidden;
     padding: 5px 0;
 }
 
+.box-item-dt img {
+    width: 50px;
+}
+
+.box-item-gt img {
+    width: 50px;
+}
+
+.box-item-ct img {
+    width: 50px;
+}
+
 .item-gt {
-    gap: 20px;
+    gap: 55px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .box-item-ct {
-    width: 100px;
-    height: 100px;
     overflow: hidden;
     padding: 5px 0;
 }
 
 .item-ct {
-    gap: 20px;
+    gap: 60px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -3017,8 +3035,13 @@ h6 {
 }
 
 .gytb h1 {
+    font-family: san-bold;
     color: white;
     padding: 50px 10px;
+}
+
+.gytb img {
+    width: 300px;
 }
 
 #parallax {
