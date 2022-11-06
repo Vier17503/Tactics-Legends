@@ -92,9 +92,9 @@
                                 </div>
                             </div>
                             <div class="col-9">
-                                <div class="search-champion">
-                                    <div class="input-champion">
-                                        <input type="text" id="search-champ-input" onkeyup="searchChamp()">
+                                <div class="search-item">
+                                    <div class="input-item">
+                                        <input type="text" id="search-item-input" onkeyup="searchItem()">
                                     </div>
                                 </div>
                             </div>
@@ -1327,6 +1327,24 @@
                 <img src="img/12+.jpg" alt="tuoi" class="tuoi12">
             </div>
             <!-- end footer -->
+            <script>
+                function searchItem() {
+
+                    var input = document.getElementById('search-item-input')
+                    var filter = input.value.toUpperCase();
+                    var listChamp = document.getElementsByClassName('box-item-tft')
+
+                    for (i = 0; i < listChamp.length; i++) {
+                        a = listChamp[i].getElementsByClassName("gem-name")[0];
+                        txtValue = a.textContent || a.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            listChamp[i].style.display = "";
+                        } else {
+                            listChamp[i].style.display = "none";
+                        }
+                    }
+                }
+            </script>
             <script>
                 function openCity(evt, cityName) {
                     // Declare all variables
